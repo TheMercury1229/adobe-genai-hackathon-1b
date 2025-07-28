@@ -1,0 +1,15 @@
+{
+    "title": "Peking Duck",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "Roast Beef",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Baked Ziti",
+            "page": 4
+        }
+    ]
+}

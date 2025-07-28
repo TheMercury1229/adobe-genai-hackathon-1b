@@ -1,0 +1,240 @@
+{
+    "title": "Add comments while viewing a PDF",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "Select an annotation or drawing markup tool",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "Note: After you make an initial comment, the tool changes back to the Select tool so that",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Keep an annotation tool selected",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Add a comment",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Note: In Acrobat Reader , complete commenting tools are available only in PDFs that",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Steps to add a comment",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Note: If you close the pop-up note, your text remains.",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Edit a comment",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Change font size of annotation comments",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "K (macOS).",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Note: Use the Commenting panel in the Preferences dialog box to change default pop-up",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Copy partial text in a comment",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Delete a comment",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Add a text comment",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Add reactions to comments on shared files",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Add an arrow, or shape",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Note: In Acrobat Reader , drawing tools are available only in PDFs that have commenting",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "drawing tool",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Note: To specify the line width, color, and other properties before you draw, select the",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "a drawing tool",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Note: To delete a drawing markup, select it and press Delete.",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Add a line",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Group and ungroup markups",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Note: You cannot group text edit markups.",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Group markups",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Ungroup markups",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Add comments in a text box or callout",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "Add a comment in text box",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "Set or change properties for the text box",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Note: You can also paste a block of text by selecting and copying the text in any",
+            "page": 13
+        },
+        {
+            "level": "H1",
+            "text": "Add a comment in callout",
+            "page": 13
+        },
+        {
+            "level": "H1",
+            "text": "Add comments in a file attachment",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Note: In Acrobat Reader , commenting tools are available only in PDFs that have",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Note: Be sure to use the Attach file option from the Add Comments tool when",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Note: To delete the attachment, right-click the attached comment icon, and choose",
+            "page": 14
+        },
+        {
+            "level": "H1",
+            "text": "Commenting preferences",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Note: A reviewer can place comments anywhere within the document frame. As a",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "Viewing comments",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Font, Font Size",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "In Windows , you can determine the font and the size of text in pop-up notes. In Mac OS , you",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Pop-up Opacity",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Enable Text Indicators And Tooltips",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Print Notes And Pop-ups",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Show Lines Connecting Comment Markups To Their Pop-ups On Mouse Rollover",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Ensure That Pop-ups Are Visible As The Document Is Scrolled",
+            "page": 15
+        }
+    ]
+}
