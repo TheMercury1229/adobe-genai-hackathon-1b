@@ -1,0 +1,48 @@
+{
+    "processing_summary": {
+        "total_collections": 3,
+        "timestamp": "2025-07-28T22:36:38.488390",
+        "collections": [
+            {
+                "collection_name": "Collection1",
+                "challenge_info": {
+                    "challenge_id": "round_1b_002",
+                    "test_case_name": "travel_planner",
+                    "description": "France Travel"
+                },
+                "total_documents": 7,
+                "json_files_created": [
+                    "South of France - Cities.json",
+                    "South of France - Cuisine.json",
+                    "South of France - History.json",
+                    "South of France - Things to Do.json",
+                    "South of France - Tips and Tricks.json",
+                    "South of France - Traditions and Culture.json"
+                ],
+                "status": "failed"
+            },
+            {
+                "collection_name": "Collection2",
+                "challenge_info": {
+                    "challenge_id": "round_1b_003",
+                    "test_case_name": "create_manageable_forms",
+                    "description": "Creating manageable forms"
+                },
+                "total_documents": 15,
+                "json_files_created": [],
+                "status": "failed"
+            },
+            {
+                "collection_name": "Collection3",
+                "challenge_info": {
+                    "challenge_id": "round_1b_001",
+                    "test_case_name": "menu_planning",
+                    "description": "Dinner menu planning"
+                },
+                "total_documents": 9,
+                "json_files_created": [],
+                "status": "failed"
+            }
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "title": "Edit text in a PDF",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "Set the default font for adding and editing text",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Change, replace, or delete text",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Bold : Bolds the text.",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Italic : Makes the text italic.",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Underline : Underlines the text.",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Superscript : Converts the selected text into superscript.",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Subscript : Converts the sleected text into subscript.",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Add new text",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Content .",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Move, rotate, or resize a text box",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "Content .",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Add or edit lists",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Content .",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "Change font color",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "For macOS: You see a Color dialog box with options to change the font color. You can",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Change font",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Content .",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Change font size",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Content .",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Redo text in Acrobat",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "more > Redo .",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Undo text in Acrobat",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "more > Undo .",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Change paragraph spacing",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Edit images or objects in a PDF",
+            "page": 13
+        },
+        {
+            "level": "H1",
+            "text": "About editing text and images",
+            "page": 13
+        },
+        {
+            "level": "H1",
+            "text": "Add images in a PDF",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 13
+        },
+        {
+            "level": "H1",
+            "text": "Modify images in a PDF",
+            "page": 14
+        },
+        {
+            "level": "H1",
+            "text": "Delete images from a PDF",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "Add Objects to PDF",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "Edit an image outside Acrobat",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Note: Select multiple items if you want to edit them together in the same file. To edit all the",
+            "page": 16
+        }
+    ]
+}

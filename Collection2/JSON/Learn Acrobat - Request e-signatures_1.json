@@ -1,0 +1,385 @@
+{
+    "title": "Send a document to get signatures from",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "tools > Request E-signatures . Alternatively, you can select Sign from the top toolbar.",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Based Authentication , Phone, or Acrobat Sign .",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "Password Protect the PDF file.",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "Simplified mode for single signer",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Simplified mode for multiple signers",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Advanced mode for multiple signers",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Note: You can switch between simplified mode and advanced mode for multiple signers.",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Signer's experience",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Note: Signers are not required to sign up or purchase any Adobe product to sign agreements.",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Steps to send in bulk",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Add a file :",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Email is the default authentication method for confirming the identity of each",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Password authentication can be added to increase security. When configured, the participant",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Note: If you have added multiple files, the files are converted into PDFs and combined into a",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Note: You can switch between Simple and Advanced mode by selecting the Advanced",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "editing (on||off) toggle in the upper-right corner.",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Manage agreements - Opens the Bulk Sends page with all your agreements: track",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Send another document in bulk - Prepare another document to send to many people",
+            "page": 16
+        },
+        {
+            "level": "H1",
+            "text": "Manage your bulk sends",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Metadata (red square): At the top of the menu is the metadata for the Bulk Send",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Actions menu (blue square) - This section contains all of the actions you can take",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Open Bulk Send - Opens the Bulk Send template document for viewing only. No fields",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Reminders – Add a reminder for yourself or everyone else who still needs to sign.",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Cancel: Cancel the Bulk Send.",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Download PDF - Downloads the whole (blank) PDF.",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Download Form Field Data - Downloads a CSV file of the field-level content for all",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Download Individual Files - Provides the option to download the individual PDF files",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Hide/Unhide Bulk Send - Hide/Unhiding the Bulk Send simply removes (or adds) the",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Share - Shares the Bulk Send along with its status with the user email you provide.",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "View Activity Report",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Add Notes - Allows the user to make personal notes for the Bulk Send.",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Agreements summary/filter (green square) - The Agreements section shows up to five",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "All - Shows all (child) agreements that have spawned from the Bulk Send (parent",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "In Progress - Indicates that the child agreement is waiting for the participant to",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Canceled - Indicates that either the sender explicitly canceled the child agreement, or",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Completed - Completed agreements have successfully obtained all signatures from all",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Waiting for You - Indicates that the agreement is waiting for the sender to countersign",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Activity for the Bulk Send parent template (orange square) - The Activity > link at the",
+            "page": 19
+        },
+        {
+            "level": "H1",
+            "text": "Why use certificate signatures?",
+            "page": 20
+        },
+        {
+            "level": "H1",
+            "text": "What can I do with certificate IDs?",
+            "page": 20
+        },
+        {
+            "level": "H2",
+            "text": "Sign documents",
+            "page": 20
+        },
+        {
+            "level": "H2",
+            "text": "Validate documents",
+            "page": 20
+        },
+        {
+            "level": "H2",
+            "text": "Set privileges and permissions for others",
+            "page": 21
+        },
+        {
+            "level": "H1",
+            "text": "What if my organization isn’t prepared to set up certificate-",
+            "page": 21
+        },
+        {
+            "level": "H1",
+            "text": "based signatures?",
+            "page": 21
+        },
+        {
+            "level": "H1",
+            "text": "Resources",
+            "page": 21
+        },
+        {
+            "level": "H1",
+            "text": "Steps to add a certificate-based signature to a PDF",
+            "page": 22
+        },
+        {
+            "level": "H1",
+            "text": "Certifying and signing documents",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "sign option.",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Digitally sign",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Certify (visible or invisible signatures)",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Certify options provide a higher level of document control than Digitally sign . For documents",
+            "page": 24
+        },
+        {
+            "level": "H1",
+            "text": "Setting up certificate-based signatures",
+            "page": 24
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 24
+        },
+        {
+            "level": "H1",
+            "text": "Set signing preferences",
+            "page": 25
+        },
+        {
+            "level": "H2",
+            "text": "Preferences ” in the Digital Signature Guide .",
+            "page": 25
+        },
+        {
+            "level": "H1",
+            "text": "Customizing signature workflows using seed values",
+            "page": 25
+        },
+        {
+            "level": "H1",
+            "text": "Create the appearance of a certificate-based signature",
+            "page": 25
+        },
+        {
+            "level": "H2",
+            "text": "Signature .",
+            "page": 25
+        },
+        {
+            "level": "H2",
+            "text": "Note: You can also create an appearance using the Signature preferences:",
+            "page": 25
+        },
+        {
+            "level": "H2",
+            "text": "No Graphic",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "Imported Graphic",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "Name",
+            "page": 26
+        },
+        {
+            "level": "H1",
+            "text": "Set up a roaming ID account",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "Account .",
+            "page": 27
+        },
+        {
+            "level": "H1",
+            "text": "PKCS#12 modules and tokens",
+            "page": 27
+        },
+        {
+            "level": "H2",
+            "text": "IDs can also be stored on a smart card, hardware token, or in the Windows certificate store.",
+            "page": 27
+        },
+        {
+            "level": "H1",
+            "text": "Store certificates on directory servers",
+            "page": 27
+        },
+        {
+            "level": "H1",
+            "text": "Import directory server settings (Windows only)",
+            "page": 27
+        },
+        {
+            "level": "H1",
+            "text": "Export directory server settings (Windows only)",
+            "page": 28
+        },
+        {
+            "level": "H2",
+            "text": "Note: See also Export security settings .",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "Add a timestamp to certificate-based signatures",
+            "page": 29
+        },
+        {
+            "level": "H2",
+            "text": "Properties dialog box. If no timestamp server is configured, the signatures field displays the",
+            "page": 29
+        },
+        {
+            "level": "H2",
+            "text": "Note: If you did not embed a timestamp when you signed the document, you can add one",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "Configure a timestamp server",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "Set a timestamp server as the default",
+            "page": 30
+        }
+    ]
+}

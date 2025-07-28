@@ -1,0 +1,180 @@
+{
+    "title": "Adobe LiveCycle Rights Management",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "Adobe LiveCycleRights Management (ALCRM) servers let you define centralized policies to",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "Use expired timestamps : The option is selected by default. It u ses the time",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Set verification for time : You can select the appropriate options under",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Add verification information : Select appropriate options under 'Verification",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Configure to trust the root certificates in the Windows® certificate store :",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Validating signatures : Certificates are trusted for Acrobat Approval",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Validating certified documents : Certificates are trusted for",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Note: Selecting these options can compromise security.",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Set the trust level of a certificate",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Use this certificate as a trusted root : A root certificate is an originating",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Signed documents or data : It a cknowledges the identity of the signer.",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Certified documents : It t rusts documents in which the author has certified the",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Dynamic content : It a llows movies, sound, and other dynamic elements",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Embedded high privilege JavaScript™ : It a llows privileged JavaScript™",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Privileged system operations : It a llows Internet connections, cross-",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Note: Allow Embedded high privilege JavaScript™ and Privileged system operations only",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Note: You can right-click a signature field in the Signatures panel to do most signature-",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Sign in preview mode for document integrity",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Certify a PDF",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Timestamp a document",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Validate a digital signature",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Validate all digital signatures",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "View previous versions of a digitally signed document",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Signed Version .",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Compare versions of a signed document",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Trust a signer’s certificate",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Sign component PDFs and PDF Portfolios",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "Digitally sign on attachments to component PDFs",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "View signed and certified PDF Portfolios",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "XML data signatures",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Establish long-term signature validation",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "extended PDF .",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Note: Embedding timestamp information requires an appropriately configured timestamp",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Add verification information at signing",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Add verification information after signing",
+            "page": 11
+        }
+    ]
+}

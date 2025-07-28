@@ -1,0 +1,280 @@
+{
+    "title": "Learn Acrobat   Edit 2",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "Note: For Photoshop, if the image is in a format supported by Photoshop 6.0 or later, your",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Rotate, move, delete, extract, or renumber",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "pages in a PDF",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Rotate pages in a PDF",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "Note: To temporarily change your view of the page, from the hamburger menu (Windows)",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "left . The original page orientation is restored the next time you open the PDF.",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Extract pages from a PDF",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Note: Any bookmarks or article threadings associated with pages aren't extracted.",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "pages after extracting .",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "separate files .",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Note: The creator of a PDF document can set the security to prevent the extraction of pages.",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Extract random pages from a PDF",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "pages after extracting .",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "separate files .",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Split PDFs into multiple documents",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Number of pages",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "File Size",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Top-level Bookmarks",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Options . Specify the options as needed, and then select OK .",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Split multiple PDFs",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Number of pages",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "File Size",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "Top-level Bookmarks",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "Options . Specify the options as needed, and then select OK .",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Move or copy pages in a PDF",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Move or copy a page",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Note: You can also move or copy pages by selecting the Page Thumbnails",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Copy a page between two PDFs",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Delete or replace pages in a PDF",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Delete multiple pages in a PDF",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Note: If you select Use Logical Page Numbers in the Page Display panel of",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Delete a page in a PDF",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Replace pages in a PDF",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Replace pages between multiple PDFs",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Renumber pages in a PDF",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Note: Using the Number Pages command affects only the page thumbnails on",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Begin New Section : Starts a new numbering sequence. Choose a style from the pop-up",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Extend Numbering Used In Preceding Section To Selected Pages : Continues the numbering",
+            "page": 13
+        },
+        {
+            "level": "H1",
+            "text": "Edit Scanned PDFs",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Check the accuracy of optical character recognition (OCR) output . When you open a",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Text tool to improve the output.",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Enhance image quality . If the scanned PDF contains low-quality images, use the Enhance",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "scanned file or Enhance camera image feature to improve the quality of images before",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Use the correct font and formatting . When editing the document, ensure that the font and",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Remove security restrictions . If the scanned PDF has security restrictions that prevent editing,",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Avoid editing complex elements . If the scanned PDF contains tables, graphs, or images,",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Check for compatibility issues . Ensure that the version of Adobe Acrobat you're using is",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Save a backup copy . Always save a backup copy of the original scanned PDF before making",
+            "page": 14
+        },
+        {
+            "level": "H1",
+            "text": "Recognize text on scanned PDF",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "started .",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "Edit a scanned document",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "Enhance scanned file or camera images for",
+            "page": 16
+        },
+        {
+            "level": "H1",
+            "text": "clear PDFs",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "image feature to create polished, clear, and compact PDFs without needing a standard",
+            "page": 16
+        },
+        {
+            "level": "H1",
+            "text": "Enhance camera image",
+            "page": 16
+        }
+    ]
+}

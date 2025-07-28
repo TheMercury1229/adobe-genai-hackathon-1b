@@ -1,0 +1,35 @@
+{
+    "title": "Horta",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "Kachumbari",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Kimchi",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Larb",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Mandazi",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "Mapo Tofu",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Msemen",
+            "page": 12
+        }
+    ]
+}
