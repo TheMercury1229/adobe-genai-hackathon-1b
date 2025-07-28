@@ -1,85 +1,86 @@
 {
     "metadata": {
-        "collection_folder": "..\\Collection1",
+        "collection_folder": ".\\Collection1",
         "input_documents": [
             "South of France - Cities.pdf",
             "South of France - Cuisine.pdf",
             "South of France - History.pdf",
+            "South of France - Restaurants and Hotels.pdf",
             "South of France - Things to Do.pdf",
             "South of France - Tips and Tricks.pdf",
             "South of France - Traditions and Culture.pdf"
         ],
         "persona": "Travel Planner",
         "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
-        "processing_timestamp": "2025-07-28T23:10:26.071583"
+        "processing_timestamp": "2025-07-28T23:51:32.037517"
     },
     "extracted_sections": [
         {
             "document": "South of France - Tips and Tricks.pdf",
-            "section_title": "Additional Tips: Plan your wine tour route in advance and consider hiring a driver or",
+            "section_title": "Full Document - South of France - Tips and Tricks.pdf",
             "importance_rank": 1,
-            "page_number": 8,
-            "similarity_score": 0.4736289381980896
+            "page_number": 1,
+            "similarity_score": 0.3773987889289856
         },
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "section_title": "Conclusion",
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Full Document - South of France - Restaurants and Hotels.pdf",
             "importance_rank": 2,
-            "page_number": 9,
-            "similarity_score": 0.45602333545684814
+            "page_number": 1,
+            "similarity_score": 0.2230890691280365
         },
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "section_title": "Notebook: Bring a notebook to jot down notes about the wines you taste.",
+            "document": "South of France - Things to Do.pdf",
+            "section_title": "Full Document - South of France - Things to Do.pdf",
             "importance_rank": 3,
-            "page_number": 8,
-            "similarity_score": 0.38992470502853394
+            "page_number": 1,
+            "similarity_score": 0.20069104433059692
         },
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "section_title": "Water Bottle: Stay hydrated by drinking water between tastings.",
+            "document": "South of France - Cities.pdf",
+            "section_title": "Full Document - South of France - Cities.pdf",
             "importance_rank": 4,
-            "page_number": 8,
-            "similarity_score": 0.38718974590301514
+            "page_number": 1,
+            "similarity_score": 0.08651112765073776
         },
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "section_title": "Packing for Adults",
+            "document": "South of France - History.pdf",
+            "section_title": "Full Document - South of France - History.pdf",
             "importance_rank": 5,
-            "page_number": 4,
-            "similarity_score": 0.31271591782569885
+            "page_number": 1,
+            "similarity_score": 0.047943297773599625
         }
     ],
     "subsection_analysis": [
         {
             "document": "South of France - Tips and Tricks.pdf",
-            "refined_text": "• \nNotebook: Bring a notebook to jot down notes about the wines you taste. \n• \nWater Bottle: Stay hydrated by drinking water between tastings. \n• \nAdditional Tips: Plan your wine tour route in advance and consider hiring a driver or \njoining a guided tour to avoid drinking and driving. \n \nTips and Tricks for Packing \n• \nCheck the Weather: Check the forecast before packing to ensure appropriate clothing. \n• \nMake a Packing List: Create a list to ensure nothing is forgotten. Cross oﬀ items as you \npack. \n• \nUse Packing Cubes: Organize clothes and maximize space. \n• \nRoll Your Clothes: Save space and reduce wrinkles. \n• \nPack Dual-Purpose Items: Choose items that serve multiple purposes. \n• \nWear Bulky Items: Wear bulky items like coats or boots during travel to save suitcase \nspace. \n• \nPack a Day Bag: Bring a small day bag for daily excursions. \n• \nLeave Room for Souvenirs: Leave extra space or bring a foldable bag for souvenirs. \n• \nAdditional Tips: Pack a small travel umbrella, a reusable shopping bag, and a \nportable phone charger. Consider using a luggage scale to avoid overweight baggage \nfees.",
-            "page_number": 8,
-            "similarity_score": 0.4736289381980896
+            "refined_text": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing, \nPlanning, and Exploring \nIntroduction \nPlanning a trip to the South of France requires thoughtful preparation to ensure a \ncomfortable and enjoyable experience. This guide covers everything from packing essentials \nto travel tips, catering to all seasons and various activities. Whether you're traveling solo, with \nkids, or in a group, this guide will help you make the most of your trip. \n \n \n\nGeneral Packing Tips and Tricks \n• \nLayering: The weather can vary, so pack layers to stay comfortable in diﬀerent \ntemperatures. \n• \nVersatile Clothing: Choose items that can be mixed and matched to create multiple \noutfits, helping you pack lighter. \n• \nPacking Cubes: Use packing cubes to organize your clothes and maximize suitcase \nspace. \n• \nRoll Your Clothes: Rolling clothes saves space and reduces wrinkles. \n• \nTravel-Sized Toiletries: Bring travel-sized toiletries to save space and comply with \nairline regulations. \n• \nReusable Bags: Pack a few reusable bags for laundry, shoes, or shopping. \n• \nFirst Aid Kit: Include a small first aid kit with band-aids, antiseptic wipes, and any \nnecessary medications. \n• \nCopies of Important Documents: Make copies of your passport, travel insurance, and \nother important documents. Keep them separate from the originals. \n• \nPortable Laundry Kit: A small laundry kit with detergent and a travel clothesline can \nbe handy for longer trips. \n• \nMulti-Purpose Shoes: Choose shoes that are comfortable for walking but can also be \nworn to a nice dinner. \n• \nTravel Pillow and Blanket: A compact travel pillow and blanket can make long flights \nor train rides more comfortable. \n• \nZiplock Bags: Use ziplock bags for liquids, snacks, or to keep items organized and \nprotected from spills.",
+            "page_number": 1,
+            "similarity_score": 0.3773987889289856
         },
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "refined_text": "Conclusion \nPacking for a trip to the South of France involves considering the season, planned activities, \nand the needs of both adults and children. By following this comprehensive guide and \nincorporating the tips and tricks provided, you'll be well-prepared for a comfortable and \nenjoyable trip. Remember to pack light, versatile clothing, and essential items to make the \nmost of your travel experience. Bon voyage!",
-            "page_number": 9,
-            "similarity_score": 0.45602333545684814
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "Comprehensive Guide to Restaurants and Hotels in the South of France \nIntroduction \nThe South of France, known for its stunning landscapes, rich cultural heritage, and exquisite \ncuisine, is a dream destination for travelers. From the glamorous beaches of the French \nRiviera to the charming villages of Provence, this region oﬀers a diverse array of experiences. \nWhether you're looking for budget-friendly options, family-friendly spots, upscale dining, or \nluxurious experiences, this guide will help you find the perfect restaurants and hotels for your \ntrip. \n \n \n\nRestaurants \nBudget-Friendly Restaurants \n• \nChez Pipo (Nice): Famous for its socca, a traditional Niçoise chickpea pancake, this \ncasual eatery oﬀers delicious and aﬀordable local dishes. The rustic ambiance and \nfriendly service make it a favorite among locals and tourists alike. \n• \nLa Merenda (Nice): A small, cozy restaurant serving authentic Niçoise cuisine. The \nmenu changes with the seasons, ensuring fresh and flavorful dishes. Reservations are a \nmust due to its popularity and limited seating. \n• \nChez Etienne (Marseille): Known for its simple yet delicious pizzas and grilled meats, \nthis family-owned restaurant is a local favorite. The lively atmosphere and hearty \nportions make it a great spot for a casual meal. \n• \nLe Bistrot du Paradou (Paradou): A charming bistro oﬀering a daily fixed menu with \nhearty Provençal dishes at reasonable prices. The warm, welcoming environment and \ngenerous servings make it a must-visit. \n• \nLe Comptoir du Marché (Nice): This bistro oﬀers a variety of traditional French dishes \nat aﬀordable prices. The cozy atmosphere and friendly staﬀ make it a great spot for a \ncasual meal. \n• \nLe Petit Nice (Marseille): A budget-friendly option oﬀering a variety of seafood dishes. \nThe relaxed setting and fresh ingredients make it a popular choice.",
+            "page_number": 1,
+            "similarity_score": 0.2230890691280365
         },
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "refined_text": "• \nNotebook: Bring a notebook to jot down notes about the wines you taste. \n• \nWater Bottle: Stay hydrated by drinking water between tastings. \n• \nAdditional Tips: Plan your wine tour route in advance and consider hiring a driver or \njoining a guided tour to avoid drinking and driving. \n \nTips and Tricks for Packing \n• \nCheck the Weather: Check the forecast before packing to ensure appropriate clothing. \n• \nMake a Packing List: Create a list to ensure nothing is forgotten. Cross oﬀ items as you \npack. \n• \nUse Packing Cubes: Organize clothes and maximize space. \n• \nRoll Your Clothes: Save space and reduce wrinkles. \n• \nPack Dual-Purpose Items: Choose items that serve multiple purposes. \n• \nWear Bulky Items: Wear bulky items like coats or boots during travel to save suitcase \nspace. \n• \nPack a Day Bag: Bring a small day bag for daily excursions. \n• \nLeave Room for Souvenirs: Leave extra space or bring a foldable bag for souvenirs. \n• \nAdditional Tips: Pack a small travel umbrella, a reusable shopping bag, and a \nportable phone charger. Consider using a luggage scale to avoid overweight baggage \nfees.",
-            "page_number": 8,
-            "similarity_score": 0.38992470502853394
+            "document": "South of France - Things to Do.pdf",
+            "refined_text": "Ultimate Guide to Activities and Things to Do in the South of France \nIntroduction \nThe South of France, with its stunning coastline, picturesque villages, and vibrant cities, oﬀers \na wealth of activities and experiences for travelers. Whether you're seeking adventure, \nrelaxation, or cultural enrichment, this region has something for everyone. This guide will \ntake you through a variety of activities and must-see attractions to help you plan an \nunforgettable trip. \n \n \n\nCoastal Adventures \nThe South of France is renowned for its beautiful coastline along the Mediterranean Sea. Here \nare some activities to enjoy by the sea: \nBeach Hopping \n• \nNice: Visit the sandy shores and enjoy the vibrant Promenade des Anglais. \n• \nAntibes: Relax on the pebbled beaches and explore the charming old town. \n• \nSaint-Tropez: Experience the exclusive beach clubs and glamorous atmosphere. \n• \nMarseille to Cassis: Explore the stunning limestone cliﬀs and hidden coves of \nCalanques National Park. \n• \nÎles d'Hyères: Discover pristine beaches and excellent snorkeling opportunities on \nislands like Porquerolles and Port-Cros. \n• \nCannes: Enjoy the sandy beaches and luxury beach clubs along the Boulevard de la \nCroisette. \n• \nMenton: Visit the serene beaches and beautiful gardens in this charming town near \nthe Italian border. \nWater Sports \n• \nCannes, Nice, and Saint-Tropez: Try jet skiing or parasailing for a thrill. \n• \nToulon: Dive into the underwater world with scuba diving excursions to explore \nwrecks. \n• \nCerbère-Banyuls: Visit the marine reserve for an unforgettable diving experience. \n• \nMediterranean Coast: Charter a yacht or join a sailing tour to explore the coastline \nand nearby islands. \n• \nMarseille: Go windsurfing or kitesurfing in the windy bays. \n• \nPort Grimaud: Rent a paddleboard and explore the canals of this picturesque village.",
+            "page_number": 1,
+            "similarity_score": 0.20069104433059692
         },
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "refined_text": "• \nNotebook: Bring a notebook to jot down notes about the wines you taste. \n• \nWater Bottle: Stay hydrated by drinking water between tastings. \n• \nAdditional Tips: Plan your wine tour route in advance and consider hiring a driver or \njoining a guided tour to avoid drinking and driving. \n \nTips and Tricks for Packing \n• \nCheck the Weather: Check the forecast before packing to ensure appropriate clothing. \n• \nMake a Packing List: Create a list to ensure nothing is forgotten. Cross oﬀ items as you \npack. \n• \nUse Packing Cubes: Organize clothes and maximize space. \n• \nRoll Your Clothes: Save space and reduce wrinkles. \n• \nPack Dual-Purpose Items: Choose items that serve multiple purposes. \n• \nWear Bulky Items: Wear bulky items like coats or boots during travel to save suitcase \nspace. \n• \nPack a Day Bag: Bring a small day bag for daily excursions. \n• \nLeave Room for Souvenirs: Leave extra space or bring a foldable bag for souvenirs. \n• \nAdditional Tips: Pack a small travel umbrella, a reusable shopping bag, and a \nportable phone charger. Consider using a luggage scale to avoid overweight baggage \nfees.",
-            "page_number": 8,
-            "similarity_score": 0.38718974590301514
+            "document": "South of France - Cities.pdf",
+            "refined_text": "Comprehensive Guide to Major Cities in the South of France \nIntroduction \nThe South of France, known for its stunning landscapes, Mediterranean coastline, and rich \ncultural heritage, is home to some of the most beautiful and historically significant cities in the \ncountry. This guide provides an in-depth look at the major cities in the South of France, \ndetailing their history, key attractions, cultural highlights, and unique characteristics. Whether \nyou're planning a visit or simply want to learn more about this enchanting region, this guide \nwill oﬀer valuable insights into each city's charm and allure. \n \n \n\nOverview of the Region \nThe South of France, or \"Le Midi,\" encompasses the regions of Provence-Alpes-Côte d'Azur, \nOccitanie, and parts of Nouvelle-Aquitaine. This area is renowned for its diverse landscapes, \nfrom the sun-drenched beaches of the French Riviera to the rolling vineyards of Provence and \nthe rugged Pyrenees mountains. The Mediterranean climate ensures warm summers and \nmild winters, making it a year-round destination. The South of France is also famous for its \ncuisine, wines, and vibrant cultural scene. \nTravel Tips \n• \nBest Time to Visit: The best time to visit the South of France is during the spring (April \nto June) and fall (September to October) when the weather is pleasant, and the tourist \ncrowds are smaller. \n• \nTransportation: The region is well-connected by an extensive network of trains, \nbuses, and flights. Renting a car is also a great option for exploring the countryside \nand smaller towns. \n• \nLanguage: While French is the oﬃcial language, English is widely spoken in tourist \nareas. Learning a few basic French phrases can enhance your travel experience. \n \n \n\nMarseille: The Oldest City in France \nHistory \nMarseille, founded by Greek sailors around 600 BC, is the oldest city in France.",
+            "page_number": 1,
+            "similarity_score": 0.08651112765073776
         },
         {
-            "document": "South of France - Tips and Tricks.pdf",
-            "refined_text": "• \nAdditional Tips: Winter is mild compared to other regions, but it's still important to \npack warm clothing for cooler evenings. Consider packing thermal underwear for \nextra warmth. \nPacking for Adults \nClothing \n• \nCasual Wear: Comfortable clothes for sightseeing and casual dining, like jeans, t-\nshirts, and casual dresses. \n• \nEvening Wear: Dressier outfits for dining out or events. Pack a nice dress or dress \npants and a blouse/shirt. \n• \nActive Wear: If you plan on hiking or outdoor activities, pack activewear like leggings, \nshorts, and moisture-wicking tops. \n• \nSwimwear: Don't forget your swimsuit for beach or pool visits. \n• \nAccessories: A stylish yet functional bag, a lightweight scarf, and a versatile jacket. \n• \nAdditional Tips: Pack a few statement pieces that can be dressed up or down, such as \na versatile dress or a pair of stylish shoes. \nToiletries \n• \nBasic Toiletries: Toothbrush, toothpaste, shampoo, conditioner, body wash, \ndeodorant, and personal hygiene items. \n• \nSkincare: Sunscreen, moisturizer, and daily skincare products. \n• \nMakeup: Pack essentials in a travel-sized makeup bag. \n• \nAdditional Items: A small sewing kit, nail clippers, and a razor. \n• \nAdditional Tips: Consider packing a travel-sized perfume or cologne to freshen up on \nthe go. \nGadgets and Accessories \n• \nElectronics: Smartphone, charger, power bank, and other devices. Bring a travel \nadapter if needed. \n• \nCamera: Capture memories with a camera, extra batteries, and memory cards. \n• \nBooks and Entertainment: A book, e-reader, or tablet for entertainment during \ntravel.",
-            "page_number": 4,
-            "similarity_score": 0.31271591782569885
+            "document": "South of France - History.pdf",
+            "refined_text": "A Historical Journey Through the South of France \nIntroduction \nThe South of France, renowned for its picturesque landscapes, charming villages, and \nstunning coastline, is also steeped in history. From ancient Roman ruins to medieval \nfortresses and Renaissance architecture, this region oﬀers a fascinating glimpse into the past. \nThis guide will take you through the histories of major cities, famous historical sites, and other \npoints of interest to help you plan an enriching and unforgettable trip. \n \n \n\nMarseille: The Oldest City in France \nMarseille, founded by Greek sailors around 600 BC, is the oldest city in France. Its strategic \nlocation on the Mediterranean coast made it a vital trading port throughout history. The city's \nrich cultural heritage is reflected in its diverse architecture and vibrant atmosphere. \nKey Historical Sites in Marseille \n• \nOld Port (Vieux-Port): The heart of Marseille, the Old Port has been a bustling harbor \nfor over 2,600 years. Today, it is a lively area filled with cafes, restaurants, and \nmarkets. \n• \nBasilica of Notre-Dame de la Garde: This iconic basilica, perched on a hill \noverlooking the city, oﬀers panoramic views of Marseille and the Mediterranean Sea. \nBuilt in the 19th century, it is a symbol of the city's maritime heritage. \n• \nFort Saint-Jean: Constructed in the 17th century, this fort guards the entrance to the \nOld Port. It now houses part of the Museum of European and Mediterranean \nCivilizations (MuCEM). \n• \nLe Panier: The oldest district in Marseille, Le Panier is a maze of narrow streets, \ncolorful buildings, and historic landmarks. It's a great place to explore the city's past \nand enjoy its vibrant culture. \n• \nChâteau d'If: Commissioned by King Francis I in 1524, this fortress on the Île d'If \nbecame famous as a prison and was immortalized in Alexandre Dumas' novel \"The \nCount of Monte Cristo\"1.",
+            "page_number": 1,
+            "similarity_score": 0.047943297773599625
         }
     ]
 }

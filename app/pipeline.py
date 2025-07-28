@@ -3,7 +3,7 @@ Pipeline for Processing Collection Folders
 This pipeline automatically discovers and processes all Collection folders (Collection1, Collection2, etc.).
 
 Pipeline Flow:
-1. Discovers all ../Collection* folders
+1. Discovers all Collection* folders (searches multiple locations)
 2. For each Collection, runs the three-step process in sequence:
    - Step 1: process_and_map_json.py (mapping PDF filenames to outlines)
    - Step 2: extract_text.py (PDF text extraction using mapping from step 1)
@@ -42,8 +42,18 @@ class CollectionPipeline:
     Pipeline class for processing Collection folders in sequence
     """
 
-    def __init__(self, base_path: str = ".."):
-        self.base_path = base_path
+    def __init__(self, base_paths: List[str] = None):
+        # Try multiple possible locations for Collection folders
+        if base_paths is None:
+            self.base_paths = [
+                "..",           # Parent directory (original logic)
+                ".",            # Current directory
+                "../..",        # Grandparent directory
+                "../../",       # Alternative grandparent
+            ]
+        else:
+            self.base_paths = base_paths
+            
         self.setup_logging()
         self.processing_summary = {
             "start_time": datetime.now().isoformat(),
@@ -77,26 +87,80 @@ class CollectionPipeline:
 
     def discover_collection_folders(self) -> List[str]:
         """
-        Discover all Collection folders in the base path (Collection1, Collection2, etc.)
+        Discover all Collection folders by searching multiple possible locations
+        (Collection1, Collection2, etc.)
 
         Returns:
             List[str]: List of Collection folder paths
         """
-        collection_pattern = os.path.join(self.base_path, "Collection*")
-        collection_folders = glob.glob(collection_pattern)
+        all_collection_folders = []
+        
+        self.logger.info("🔍 Searching for Collection folders in multiple locations...")
+        
+        for base_path in self.base_paths:
+            try:
+                # Get absolute path for logging
+                abs_base_path = os.path.abspath(base_path)
+                self.logger.info(f"  Searching in: {abs_base_path}")
+                
+                # Check if base path exists
+                if not os.path.exists(base_path):
+                    self.logger.info(f"    ❌ Path does not exist")
+                    continue
+                
+                # Search for Collection folders
+                collection_pattern = os.path.join(base_path, "Collection*")
+                found_folders = glob.glob(collection_pattern)
+                
+                # Filter to only include directories
+                collection_folders = [
+                    folder for folder in found_folders if os.path.isdir(folder)]
+                
+                if collection_folders:
+                    self.logger.info(f"    ✅ Found {len(collection_folders)} Collection folders:")
+                    for folder in collection_folders:
+                        abs_folder = os.path.abspath(folder)
+                        self.logger.info(f"      📁 {abs_folder}")
+                        
+                        # Avoid duplicates by checking absolute paths
+                        if abs_folder not in [os.path.abspath(f) for f in all_collection_folders]:
+                            all_collection_folders.append(folder)
+                else:
+                    self.logger.info(f"    ❌ No Collection folders found")
+                    
+            except Exception as e:
+                self.logger.error(f"    ❌ Error searching {base_path}: {e}")
+                continue
+        
+        # Remove duplicates and sort
+        unique_folders = []
+        seen_abs_paths = set()
+        
+        for folder in all_collection_folders:
+            abs_path = os.path.abspath(folder)
+            if abs_path not in seen_abs_paths:
+                unique_folders.append(folder)
+                seen_abs_paths.add(abs_path)
+        
+        unique_folders.sort()
+        
+        self.logger.info(f"\n📊 Discovery Summary:")
+        self.logger.info(f"  Total unique Collection folders found: {len(unique_folders)}")
+        
+        if unique_folders:
+            self.logger.info(f"  Final Collection folders to process:")
+            for i, folder in enumerate(unique_folders, 1):
+                self.logger.info(f"    {i}. {os.path.abspath(folder)}")
+        else:
+            self.logger.warning(f"  ⚠️  No Collection folders found in any searched location!")
+            self.logger.info(f"  Searched locations:")
+            for base_path in self.base_paths:
+                abs_path = os.path.abspath(base_path)
+                exists = "✅" if os.path.exists(base_path) else "❌"
+                self.logger.info(f"    {exists} {abs_path}")
 
-        # Filter to only include directories
-        collection_folders = [
-            folder for folder in collection_folders if os.path.isdir(folder)]
-        collection_folders.sort()  # Sort for consistent processing order
-
-        self.logger.info(
-            f"Discovered {len(collection_folders)} Collection folders:")
-        for folder in collection_folders:
-            self.logger.info(f"  📁 {folder}")
-
-        self.processing_summary["collections_found"] = len(collection_folders)
-        return collection_folders
+        self.processing_summary["collections_found"] = len(unique_folders)
+        return unique_folders
 
     def validate_collection_structure(self, collection_folder: str) -> Tuple[bool, List[str]]:
         """
@@ -157,10 +221,11 @@ class CollectionPipeline:
             Dict[str, Any]: Processing results and status
         """
         collection_name = os.path.basename(collection_folder)
+        collection_abs_path = os.path.abspath(collection_folder)
 
         result = {
             "collection": collection_name,
-            "collection_path": collection_folder,
+            "collection_path": collection_abs_path,
             "start_time": datetime.now().isoformat(),
             "success": False,
             "steps_completed": [],
@@ -172,7 +237,7 @@ class CollectionPipeline:
 
         self.logger.info(f"{'='*80}")
         self.logger.info(f"PROCESSING COLLECTION: {collection_name}")
-        self.logger.info(f"Path: {collection_folder}")
+        self.logger.info(f"Path: {collection_abs_path}")
         self.logger.info(f"{'='*80}")
 
         try:
@@ -199,8 +264,6 @@ class CollectionPipeline:
                     collection_folder)
 
                 if not pdf_filenames:
-                    raise Exception("No PDF filenames found in b.json")
-
                     raise Exception("No PDF filenames found in challenge1b_input.json")
                 
                 if not pdf_to_outline_mapping:
@@ -321,7 +384,7 @@ class CollectionPipeline:
 
             self.logger.info(f"\n🎉 {collection_name} processed successfully!")
             self.logger.info(
-                f"📁 All output files saved to: {collection_folder}")
+                f"📁 All output files saved to: {collection_abs_path}")
             self.logger.info(
                 f"📄 Output files: {', '.join(result['output_files'])}")
 
@@ -346,15 +409,21 @@ class CollectionPipeline:
             return {"error": "Module import failed"}
 
         self.logger.info("🚀 STARTING COLLECTION PROCESSING PIPELINE")
-        self.logger.info(f"Base path: {os.path.abspath(self.base_path)}")
+        
+        # Log all search paths
+        self.logger.info(f"Search paths:")
+        for i, path in enumerate(self.base_paths, 1):
+            abs_path = os.path.abspath(path)
+            exists = "✅" if os.path.exists(path) else "❌"
+            self.logger.info(f"  {i}. {exists} {abs_path}")
 
         # Discover all Collection folders
         collection_folders = self.discover_collection_folders()
 
         if not collection_folders:
             self.logger.warning("No Collection folders found. Exiting.")
-            self.logger.info(
-                "Expected folder structure: ../Collection1, ../Collection2, etc.")
+            self.logger.info("Expected folders: Collection1, Collection2, etc.")
+            self.logger.info("Please ensure Collection folders exist in one of the searched locations.")
             return self.processing_summary
 
         # Process each Collection folder
@@ -379,7 +448,7 @@ class CollectionPipeline:
                 # Add failed result to summary
                 failed_result = {
                     "collection": os.path.basename(collection_folder),
-                    "collection_path": collection_folder,
+                    "collection_path": os.path.abspath(collection_folder),
                     "success": False,
                     "errors": [error_msg],
                     "steps_completed": [],
@@ -554,8 +623,8 @@ def main():
             results["errors"].append(error_msg)
             return results
 
-        # Initialize and run the pipeline
-        pipeline = CollectionPipeline(base_path="..")
+        # Initialize and run the pipeline with multiple search paths
+        pipeline = CollectionPipeline()
         pipeline_results = pipeline.run_complete_pipeline()
 
         # Extract results from pipeline execution
@@ -583,9 +652,9 @@ def main():
                     f"\n⚠️  Pipeline completed but no collections were processed successfully")
 
                 if results["collections_found"] == 0:
-                    error_msg = "No Collection folders found in parent directory"
-                    print(
-                        f"💡 Make sure you have Collection folders (Collection1, Collection2, etc.) in the parent directory")
+                    error_msg = "No Collection folders found in any searched location"
+                    print(f"💡 Make sure you have Collection folders (Collection1, Collection2, etc.)")
+                    print(f"💡 The pipeline searches in: current directory, parent directory, and grandparent directory")
                     results["errors"].append(error_msg)
                 else:
                     error_msg = "All collections failed to process"

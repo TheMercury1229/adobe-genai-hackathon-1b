@@ -14,4 +14,4 @@ COPY app/ ./app/
 COPY Collection*/ ./
 
 # Default command to run the new pipeline
-CMD ["python", "new_pipeline.py"]
+CMD ["python", "main.py"]

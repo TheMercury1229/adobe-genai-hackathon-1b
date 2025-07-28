@@ -1,0 +1,360 @@
+COMPLETE PDF EXTRACTION SUMMARY
+============================================================
+
+Collection folder: .\Collection2
+Persona: HR professional
+Job to be done: Create and manage fillable forms for onboarding and compliance.
+
+Processing Summary:
+  - Total PDFs: 15
+  - Successfully processed: 15
+  - Total sections extracted: 285
+
+Detailed Breakdown:
+----------------------------------------
+
+PDF: Learn Acrobat - Create and Convert_1.pdf
+Sections: 36
+Total characters: 51,248
+  1. Convert a file to PDF using Acrobat menu commands (pages 7-8) - 1,455 chars
+  2. Drag-and-drop to create PDFs (pages 9-9) - 1,612 chars
+  3. Convert clipboard content to PDF (pages 10-10) - 930 chars
+  4. Create a blank PDF (pages 11-11) - 692 chars
+  5. Create multiple PDFs from multiple files (pages 12-11) - 1,665 chars
+  6. About Acrobat PDFMaker (pages 12-12) - 1,665 chars
+  7. Using Create PDF cloud service for PDF conversion (pages 13-13) - 451 chars
+  8. Convert a file to PDF using PDFMaker (pages 14-13) - 1,755 chars
+  9. Show or activate PDFMaker in Microsoft Office and Lotus Notes (pages 14-14) - 1,755 chars
+  10. Convert a file to PDF (pages 15-14) - 809 chars
+  11. Create a PDF and share the link for viewing or commenting (pages 15-14) - 809 chars
+  12. Applicable to Microsoft Word, Excel, and PowerPoint (pages 15-15) - 809 chars
+  13. Create a PDF and share via Outlook (pages 16-15) - 431 chars
+  14. Applicable to Microsoft Word, Excel, and PowerPoint (pages 16-17) - 803 chars
+  15. Create a PDF as an email attachment (pages 18-17) - 1,607 chars
+  16. Attach a file as PDF (Outlook) (pages 18-17) - 1,607 chars
+  17. Convert files to a secured PDF and attach it to an email message (Outlook) (pages 18-18) - 1,607 chars
+  18. Create a PDF and send it for review (pages 19-18) - 1,185 chars
+  19. Create a PDF and run an action (pages 19-19) - 1,185 chars
+  20. View PDFMaker conversion settings (pages 20-19) - 1,733 chars
+  21. Settings tab of the Adobe PDFMaker preferences (pages 20-20) - 1,733 chars
+  22. Security tab of the Adobe PDFMaker preferences (pages 21-21) - 1,621 chars
+  23. Convert Microsoft Word, PowerPoint, and Excel files to PDF (pages 22-21) - 1,581 chars
+  24. Convert Excel files to PDF (pages 22-21) - 1,581 chars
+  25. Convert Word and PowerPoint files to PDF (pages 22-22) - 1,581 chars
+  26. Convert email messages to PDFs (pages 23-22) - 1,842 chars
+  27. Specify whether email messages become merged PDFs or PDF Portfolios (pages 23-22) - 1,842 chars
+  28. Convert an open email message to PDF (Outlook) (pages 23-23) - 1,842 chars
+  29. Convert email messages to a new PDF (pages 24-23) - 1,921 chars
+  30. Add email messages or folders to an existing PDF (pages 24-24) - 1,921 chars
+  31. Convert email folders to a new PDF (pages 25-25) - 893 chars
+  32. Set up automatic email archiving (pages 26-26) - 1,497 chars
+  33. Create PDFs from Word mail merges (pages 27-27) - 2,050 chars
+  34. Email options for PDF mail merges (pages 28-28) - 802 chars
+  35. Convert Visio files to PDF (Acrobat Pro) (pages 29-28) - 1,988 chars
+  36. Convert Visio files (pages 29-29) - 1,988 chars
+
+PDF: Learn Acrobat - Create and Convert_2.pdf
+Sections: 22
+Total characters: 40,552
+  1. Select Visio layers to convert (Acrobat Pro) (pages 1-2) - 2,517 chars
+  2. Convert AutoCAD files to PDF (Acrobat Pro for Windows) (pages 3-2) - 1,708 chars
+  3. Convert AutoCAD files when AutoCAD is installed (pages 3-3) - 1,708 chars
+  4. Select AutoCAD layers to convert (pages 4-4) - 2,029 chars
+  5. Convert AutoCAD files in batches (pages 5-5) - 1,219 chars
+  6. Application-specific PDFMaker settings (pages 6-5) - 1,382 chars
+  7. Settings tab options available from within most applications (pages 6-5) - 1,382 chars
+  8. Excel-specific options on the Settings tab (pages 6-6) - 1,382 chars
+  9. PowerPoint-specific options on the Settings tab (pages 7-6) - 1,671 chars
+  10. Email-specific options on the Settings tab (pages 7-7) - 1,671 chars
+  11. AutoCAD-specific options on the Settings tab (Acrobat Pro) (pages 8-8) - 1,659 chars
+  12. Visio-specific options on the Settings tab (Acrobat Pro) (pages 9-8) - 1,690 chars
+  13. Word tab settings (Microsoft Word) (pages 9-9) - 1,690 chars
+  14. Bookmarks tab settings (Microsoft Word) (pages 10-11) - 2,406 chars
+  15. Create PDFs by printing to file (pages 12-11) - 2,050 chars
+  16. Create a PDF using the Print command (Windows) (pages 12-11) - 2,050 chars
+  17. Create a PDF using the Print command (Mac OS X) (pages 12-13) - 2,595 chars
+  18. Adobe PDF printing preferences (Windows) (pages 14-16) - 3,065 chars
+  19. Set Adobe PDF printer properties (Windows) (pages 17-16) - 1,555 chars
+  20. Set Adobe PDF printer properties (pages 17-16) - 1,555 chars
+  21. Reassign the port that the Adobe PDF printer uses (pages 17-16) - 1,555 chars
+  22. Delete a folder and reassign the Adobe PDF printer to the default port (pages 17-18) - 2,013 chars
+
+PDF: Learn Acrobat - Edit_1.pdf
+Sections: 6
+Total characters: 8,261
+  1. About editing text and images (pages 13-12) - 1,294 chars
+  2. Add images in a PDF (pages 13-13) - 1,294 chars
+  3. Modify images in a PDF (pages 14-14) - 2,121 chars
+  4. Delete images from a PDF (pages 15-14) - 867 chars
+  5. Add Objects to PDF (pages 15-15) - 867 chars
+  6. Edit an image outside Acrobat (pages 16-16) - 1,818 chars
+
+PDF: Learn Acrobat - Edit_2.pdf
+Sections: 18
+Total characters: 28,090
+  1. Export PDF images to another format (pages 1-2) - 1,216 chars
+  2. Rotate pages in a PDF (pages 3-3) - 1,116 chars
+  3. Extract random pages from a PDF (pages 4-5) - 2,359 chars
+  4. Split PDFs into multiple documents (pages 6-5) - 1,312 chars
+  5. Split multiple PDFs (pages 6-7) - 1,826 chars
+  6. Move or copy pages in a PDF (pages 8-7) - 1,788 chars
+  7. Move or copy a page (pages 8-7) - 1,788 chars
+  8. Copy a page between two PDFs (pages 8-9) - 2,232 chars
+  9. Delete or replace pages in a PDF (pages 10-9) - 1,164 chars
+  10. Delete multiple pages in a PDF (pages 10-10) - 1,164 chars
+  11. Delete a page in a PDF (pages 11-10) - 1,607 chars
+  12. Replace pages in a PDF (pages 11-10) - 1,607 chars
+  13. Replace pages between multiple PDFs (pages 11-12) - 2,329 chars
+  14. Renumber pages in a PDF (pages 13-13) - 1,490 chars
+  15. Recognize text on scanned PDF (pages 14-14) - 2,305 chars
+  16. Edit a scanned document (pages 15-15) - 921 chars
+  17. Enhance scanned file or camera images for clear PDFs (pages 16-15) - 933 chars
+  18. Enhance camera image (pages 16-16) - 933 chars
+
+PDF: Learn Acrobat - Export_1.pdf
+Sections: 50
+Total characters: 63,410
+  1. Recover the last saved version (pages 4-3) - 2,018 chars
+  2. About the Autosave feature (pages 4-5) - 3,117 chars
+  3. Convert PDF to DOC (pages 6-7) - 916 chars
+  4. File format options for PDF export in Acrobat (pages 8-7) - 1,801 chars
+  5. Adobe PDF options (pages 8-7) - 1,801 chars
+  6. Image conversion settings (pages 8-7) - 1,801 chars
+  7. JPEG and JPEG 2000 conversion settings (pages 8-7) - 1,801 chars
+  8. File settings (pages 8-8) - 1,801 chars
+  9. Color management (pages 9-8) - 1,837 chars
+  10. Conversion (pages 9-8) - 1,837 chars
+  11. PDF to PNG conversion settings (pages 9-9) - 1,837 chars
+  12. File settings (pages 10-9) - 1,633 chars
+  13. Color management (pages 10-9) - 1,633 chars
+  14. Conversion (pages 10-10) - 1,633 chars
+  15. PDF to TIFF conversion settings (pages 11-10) - 1,177 chars
+  16. File settings (pages 11-10) - 1,177 chars
+  17. Color management (pages 11-10) - 1,177 chars
+  18. Conversion (pages 11-11) - 1,177 chars
+  19. PDF to Microsoft Word conversion settings (pages 12-12) - 774 chars
+  20. Convert PDF to RTF (pages 13-12) - 775 chars
+  21. PDF to RTF conversion settings (pages 13-14) - 1,004 chars
+  22. Convert PDF to HTML Web Page (pages 15-14) - 553 chars
+  23. PDF to HTML conversion settings (pages 15-14) - 553 chars
+  24. File and Navigation Pane Settings (pages 15-15) - 553 chars
+  25. Content settings (pages 16-15) - 863 chars
+  26. Text recognition settings (pages 16-16) - 863 chars
+  27. Convert PDF to Microsoft Excel (pages 17-16) - 474 chars
+  28. Convert PDF to Microsoft Excel (XLSX) (pages 17-16) - 474 chars
+  29. Convert PDF to XML (pages 17-17) - 474 chars
+  30. PDF to Microsoft Excel (XLSX or XML) conversion settings (pages 18-17) - 908 chars
+  31. Text recognition settings (pages 18-19) - 1,027 chars
+  32. Convert PDF to PostScript or Encapsulated PostScript (EPS) (pages 20-20) - 989 chars
+  33. PDF to PS and EPS conversion settings (pages 21-21) - 1,872 chars
+  34. Convert PDF to Text and XML 1.0 (pages 22-21) - 1,122 chars
+  35. Convert PDF to XML 1.0 (pages 22-21) - 1,122 chars
+  36. Convert PDF to text (pages 22-21) - 1,122 chars
+  37. PDF to Text and XML 1.0 conversion settings (pages 22-21) - 1,122 chars
+  38. Output file settings (pages 22-22) - 1,122 chars
+  39. Image file settings (pages 23-23) - 1,723 chars
+  40. Convert PDF to JPEG or JPEG 2000 (pages 24-23) - 815 chars
+  41. Convert PDF to TIFF (pages 24-24) - 815 chars
+  42. Convert PDF to PNG (pages 25-26) - 2,531 chars
+  43. Export selections from a PDF to another format (pages 27-27) - 717 chars
+  44. Select and copy text and images (pages 28-27) - 1,670 chars
+  45. Select text and images (pages 28-27) - 1,670 chars
+  46. Select a column of text (pages 28-28) - 1,670 chars
+  47. Select all the text on a page (pages 29-28) - 888 chars
+  48. Copy selected text (pages 29-28) - 888 chars
+  49. Paste copied text and images (pages 29-29) - 888 chars
+  50. Convert selected content to other formats (pages 30-30) - 1,195 chars
+
+PDF: Learn Acrobat - Export_2.pdf
+Sections: 3
+Total characters: 2,545
+  1. Copy images (pages 1-1) - 878 chars
+  2. Export objects to separate PDF (pages 2-2) - 361 chars
+  3. Take a snapshot of a page (pages 3-3) - 1,306 chars
+
+PDF: Learn Acrobat - Fill and Sign.pdf
+Sections: 20
+Total characters: 25,483
+  1. Fill and Sign PDF Forms (pages 1-0) - 130 chars
+  2. You can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types of PDF forms (pages 1-1) - 130 chars
+  3. Fill and sign PDF forms (pages 2-1) - 1,602 chars
+  4. To fill text fields: (pages 2-4) - 2,541 chars
+  5. To fill radio option fields: (pages 5-4) - 577 chars
+  6. To add signature and initials: (pages 5-7) - 2,751 chars
+  7. Fill in PDF Forms (pages 8-7) - 868 chars
+  8. Is the form fillable? (pages 8-7) - 868 chars
+  9. Fill in interactive forms (pages 8-9) - 1,150 chars
+  10. Auto-Complete forms (interactive forms only) (pages 10-9) - 1,589 chars
+  11. Enable the Auto-Complete option (pages 10-9) - 1,589 chars
+  12. Delete an entry from the Auto-Complete memory (pages 10-11) - 1,923 chars
+  13. Change flat forms to fillable (Acrobat Pro) (pages 12-12) - 719 chars
+  14. Save forms (pages 13-13) - 578 chars
+  15. Print forms (pages 14-14) - 675 chars
+  16. Clear unsaved form entries (pages 15-15) - 2,067 chars
+  17. Sign an agreement (pages 16-15) - 1,900 chars
+  18. Sign using Acrobat/Reader desktop application (pages 16-16) - 1,900 chars
+  19. Sign using the email link (pages 17-17) - 1,709 chars
+  20. Remove your signature or initials (pages 18-18) - 217 chars
+
+PDF: Learn Acrobat - Generative AI_1.pdf
+Sections: 30
+Total characters: 58,715
+  1. Attributions (pages 3-3) - 2,415 chars
+  2. Feedback (pages 4-3) - 2,882 chars
+  3. Will adobe ever look at your content while you’re using generative ai in acrobat and acrobat reader? (pages 4-4) - 2,882 chars
+  4. What steps do we take to protect your content when you share it with us as part of providing feedback? (pages 5-4) - 2,860 chars
+  5. If you flag content as being harmful, illegal, or offensive or if you contribute content as feedback, how long do we retain that content? (pages 5-4) - 2,860 chars
+  6. Do acrobat’s generative ai features process my documents when i launch the application or open a file in the application? (pages 5-4) - 2,860 chars
+  7. If I’m signed into my adobe account, does acrobat’s generative ai features automatically start processing my documents when I launch the application, or open a file in the application? (pages 5-5) - 2,860 chars
+  8. What LLMS are we leveraging to power generative ai in acrobat? (pages 6-5) - 2,361 chars
+  9. Does adobe concurrently train any large language models (“LLMS”) with your content while you're using generative ai features in acrobat? (pages 6-5) - 2,361 chars
+  10. What is chat history? (pages 6-5) - 2,361 chars
+  11. How can I see my chat history? (pages 6-6) - 2,361 chars
+  12. Where is my chat history stored? (pages 7-6) - 1,440 chars
+  13. Can I export my chat history in AI Assistant? (pages 7-6) - 1,440 chars
+  14. How can I clear my chat history in AI Assistant? (pages 7-6) - 1,440 chars
+  15. Can I disable chat history in AI Assistant? (pages 7-6) - 1,440 chars
+  16. Can i share my chat history with others? (pages 7-6) - 1,440 chars
+  17. What happens if I disconnect acrobat from other third-party cloud storage services such as google drive or OneDrive? (pages 7-13) - 6,489 chars
+  18. Streaming summaries for long PDFs (pages 14-14) - 1,480 chars
+  19. Acrobat (pages 15-14) - 1,497 chars
+  20. Prerequisites (pages 15-14) - 1,497 chars
+  21. View meeting details in Acrobat (pages 15-14) - 1,497 chars
+  22. Access Zoom meeting transcripts in Acrobat (pages 15-15) - 1,497 chars
+  23. Manually open meeting transcripts in Acrobat (pages 16-17) - 1,218 chars
+  24. Use generative AI features in Acrobat Reader (pages 18-19) - 1,355 chars
+  25. Like or dislike the response (pages 20-20) - 790 chars
+  26. Report inappropriate content (pages 21-22) - 388 chars
+  27. Rate your experience with the generative AI features (pages 23-25) - 2,184 chars
+  28. Using AI Assistant in Acrobat mobile (pages 26-29) - 1,710 chars
+  29. Provide feedback for generated answers (pages 30-31) - 379 chars
+  30. Turn off AI Assistant (pages 32-32) - 471 chars
+
+PDF: Learn Acrobat - Generative AI_2.pdf
+Sections: 18
+Total characters: 19,158
+  1. Persistent chat history (pages 1-1) - 805 chars
+  2. Clear chat history (pages 2-2) - 506 chars
+  3. Copy chat history (pages 3-3) - 778 chars
+  4. Read-aloud generated responses (pages 4-5) - 775 chars
+  5. Change the playback speed (pages 6-6) - 416 chars
+  6. Custom voice for read-aloud feature (pages 7-7) - 184 chars
+  7. Multiple document support in AI Assistant (pages 8-10) - 2,155 chars
+  8. Remove files from a collection (pages 11-11) - 353 chars
+  9. Request access in Acrobat (pages 12-11) - 1,364 chars
+  10. Request access from the Admin Console (Teams hybrid admins) (pages 12-14) - 2,267 chars
+  11. Review the status of your request (pages 15-15) - 942 chars
+  12. Common questions (pages 16-15) - 1,446 chars
+  13. I have multiple profiles associated with my Adobe account. How do I select which profile to send a request from? (pages 16-15) - 1,446 chars
+  14. What if I can’t find the option to request access to AI Assistant for Acrobat? (pages 16-15) - 1,446 chars
+  15. What notifications do I receive if a request is approved, declined, or pending? (pages 16-15) - 1,446 chars
+  16. What happens if my request is declined? (pages 16-16) - 1,446 chars
+  17. Prerequisites (pages 17-17) - 883 chars
+  18. License deployment (pages 18-18) - 500 chars
+
+PDF: Learn Acrobat - Request e-signatures_1.pdf
+Sections: 20
+Total characters: 42,687
+  1. Signer's experience (pages 8-8) - 1,418 chars
+  2. Steps to send in bulk (pages 9-16) - 5,107 chars
+  3. Manage your bulk sends (pages 17-19) - 3,852 chars
+  4. Why use certificate signatures? (pages 20-19) - 1,916 chars
+  5. What can I do with certificate IDs? (pages 20-20) - 1,916 chars
+  6. What if my organization isn’t prepared to set up certificate-based signatures? (pages 21-20) - 2,136 chars
+  7. Resources (pages 21-21) - 2,136 chars
+  8. Steps to add a certificate-based signature to a PDF (pages 22-22) - 1,178 chars
+  9. Certifying and signing documents (pages 23-23) - 871 chars
+  10. Setting up certificate-based signatures (pages 24-24) - 2,663 chars
+  11. Set signing preferences (pages 25-24) - 2,310 chars
+  12. Customizing signature workflows using seed values (pages 25-24) - 2,310 chars
+  13. Create the appearance of a certificate-based signature (pages 25-25) - 2,310 chars
+  14. Set up a roaming ID account (pages 26-26) - 1,787 chars
+  15. PKCS#12 modules and tokens (pages 27-26) - 2,258 chars
+  16. Store certificates on directory servers (pages 27-26) - 2,258 chars
+  17. Import directory server settings (Windows only) (pages 27-27) - 2,258 chars
+  18. Export directory server settings (Windows only) (pages 28-28) - 1,477 chars
+  19. Add a timestamp to certificate-based signatures (pages 29-29) - 1,926 chars
+  20. Set a timestamp server as the default (pages 30-30) - 600 chars
+
+PDF: Learn Acrobat - Request e-signatures_2.pdf
+Sections: 20
+Total characters: 40,741
+  1. Adobe LiveCycle Rights Management (ALCRM) servers (pages 1-0) - 1,752 chars
+  2. What is a digital signature? (pages 1-0) - 1,752 chars
+  3. Why validate a digital signature? (pages 1-1) - 1,752 chars
+  4. Set preferences for validating digital signatures (pages 2-3) - 1,454 chars
+  5. Set the trust level of a certificate (pages 4-5) - 3,513 chars
+  6. Sign in preview mode for document integrity (pages 6-5) - 2,045 chars
+  7. Certify a PDF (pages 6-5) - 2,045 chars
+  8. Timestamp a document (pages 6-5) - 2,045 chars
+  9. Validate a digital signature (pages 6-7) - 2,264 chars
+  10. Validate all digital signatures (pages 8-7) - 1,834 chars
+  11. View previous versions of a digitally signed document (pages 8-7) - 1,834 chars
+  12. Compare versions of a signed document (pages 8-7) - 1,834 chars
+  13. Trust a signer’s certificate (pages 8-8) - 1,834 chars
+  14. Sign component PDFs and PDF Portfolios (pages 9-8) - 2,177 chars
+  15. Digitally sign on attachments to component PDFs (pages 9-8) - 2,177 chars
+  16. View signed and certified PDF Portfolios (pages 9-9) - 2,177 chars
+  17. XML data signatures (pages 10-9) - 2,528 chars
+  18. Establish long-term signature validation (pages 10-10) - 2,528 chars
+  19. Add verification information at signing (pages 11-10) - 1,598 chars
+  20. Add verification information after signing (pages 11-11) - 1,598 chars
+
+PDF: Learn Acrobat - Share_1.pdf
+Sections: 16
+Total characters: 19,278
+  1. Highlight, strikethrough, or underline text comment (pages 7-6) - 1,044 chars
+  2. Using Select Text Tool (pages 7-6) - 1,044 chars
+  3. Using Markup Tool (pages 7-7) - 1,044 chars
+  4. Change the color of the markup (pages 8-7) - 635 chars
+  5. Delete The Markup (pages 8-7) - 635 chars
+  6. To delete the markup, select the markup and then select delete (pages 8-7) - 635 chars
+  7. Add a comment to the markup (pages 8-7) - 635 chars
+  8. Replace text (pages 8-8) - 635 chars
+  9. Insert text (pages 9-9) - 645 chars
+  10. Export text edits (pages 10-9) - 2,007 chars
+  11. Send an anonymous or public link in an email (pages 10-10) - 2,007 chars
+  12. Reviewer experience (pages 11-10) - 2,042 chars
+  13. Send personalized invitations for commenting (pages 11-11) - 2,042 chars
+  14. Initiate a review using @mention in a PDF (pages 12-11) - 1,176 chars
+  15. Reviewer experience (pages 12-13) - 1,516 chars
+  16. Initiate SharePoint-based shared review using Acrobat (pages 14-14) - 1,536 chars
+
+PDF: Learn Acrobat - Share_2.pdf
+Sections: 24
+Total characters: 25,820
+  1. Annotations and drawing markup tools overview (pages 2-1) - 994 chars
+  2. Show annotations and drawing markup tools (pages 2-2) - 994 chars
+  3. Select an annotation or drawing markup tool (pages 3-3) - 283 chars
+  4. Keep an annotation tool selected (pages 4-4) - 430 chars
+  5. Add a comment (pages 5-4) - 1,073 chars
+  6. Steps to add a comment (pages 5-4) - 1,073 chars
+  7. Edit a comment (pages 5-5) - 1,073 chars
+  8. Change font size of annotation comments (pages 6-5) - 711 chars
+  9. Copy partial text in a comment (pages 6-5) - 711 chars
+  10. Delete a comment (pages 6-6) - 711 chars
+  11. Add a text comment (pages 7-7) - 420 chars
+  12. Add reactions to comments on shared files (pages 8-8) - 453 chars
+  13. Add an arrow, or shape (pages 9-9) - 1,787 chars
+  14. Add a line (pages 10-10) - 859 chars
+  15. Group and ungroup markups (pages 11-10) - 676 chars
+  16. Group markups (pages 11-10) - 676 chars
+  17. Ungroup markups (pages 11-11) - 676 chars
+  18. Add comments in a text box or callout (pages 12-11) - 1,891 chars
+  19. Add a comment in text box (pages 12-11) - 1,891 chars
+  20. Set or change properties for the text box (pages 12-12) - 1,891 chars
+  21. Add a comment in callout (pages 13-13) - 1,468 chars
+  22. Add comments in a file attachment (pages 14-14) - 1,607 chars
+  23. Commenting preferences (pages 15-14) - 1,673 chars
+  24. Viewing comments (pages 15-16) - 1,799 chars
+
+PDF: Test Your Acrobat Exporting Skills.pdf
+Sections: 1
+Total characters: 2,537
+  1. Full Document - Test Your Acrobat Exporting Skills.pdf (pages 1-2) - 2,537 chars
+
+PDF: The Ultimate PDF Sharing Checklist.pdf
+Sections: 1
+Total characters: 2,902
+  1. Full Document - The Ultimate PDF Sharing Checklist.pdf (pages 1-3) - 2,902 chars
+

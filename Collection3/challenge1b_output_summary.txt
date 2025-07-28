@@ -1,0 +1,129 @@
+SEMANTIC SEARCH RESULTS SUMMARY
+================================================================================
+
+Processing Information:
+  • Collection folder: .\Collection3
+  • Persona: Food Contractor
+  • Job: Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.
+  • Documents processed: 9
+  • Processing time: 2025-07-28T23:51:43.289904
+
+Input Documents:
+  • Breakfast Ideas.pdf
+  • Dinner Ideas - Mains_1.pdf
+  • Dinner Ideas - Mains_2.pdf
+  • Dinner Ideas - Mains_3.pdf
+  • Dinner Ideas - Sides_1.pdf
+  • Dinner Ideas - Sides_2.pdf
+  • Dinner Ideas - Sides_3.pdf
+  • Dinner Ideas - Sides_4.pdf
+  • Lunch Ideas.pdf
+
+Top Relevant Sections (by importance):
+--------------------------------------------------------------------------------
+
+1. Full Document - Dinner Ideas - Mains_2.pdf
+   Document: Dinner Ideas - Mains_2.pdf
+   Page: 1
+   Similarity Score: 0.4705
+
+2. Full Document - Dinner Ideas - Sides_1.pdf
+   Document: Dinner Ideas - Sides_1.pdf
+   Page: 1
+   Similarity Score: 0.4045
+
+3. Full Document - Lunch Ideas.pdf
+   Document: Lunch Ideas.pdf
+   Page: 1
+   Similarity Score: 0.3942
+
+4. Full Document - Dinner Ideas - Sides_3.pdf
+   Document: Dinner Ideas - Sides_3.pdf
+   Page: 1
+   Similarity Score: 0.3926
+
+5. Full Document - Dinner Ideas - Sides_4.pdf
+   Document: Dinner Ideas - Sides_4.pdf
+   Page: 1
+   Similarity Score: 0.3829
+
+Detailed Content Analysis:
+--------------------------------------------------------------------------------
+
+1. Document: Dinner Ideas - Mains_2.pdf
+   Page: 1
+   Similarity Score: 0.4705
+   Content Preview:  
+1 teaspoon thyme 
+ 
+1 teaspoon rosemary 
+ 
+1/4 cup olive oil 
+ 
+Salt and pepper to taste 
+Instructions: 
+ 
+Preheat oven to 375°F (190°C). 
+ 
+In a large baking dish, layer diced eggplant, zucch...
+------------------------------------------------------------
+
+2. Document: Dinner Ideas - Sides_1.pdf
+   Page: 1
+   Similarity Score: 0.4045
+   Content Preview: Acarajé 
+ 
+Ingredients:  
+o 2 cups black-eyed peas 
+o 1 small onion 
+o 2 cloves garlic 
+o 1 teaspoon salt 
+o Oil for frying 
+ 
+Instructions: 
+o Soak black-eyed peas overnight, then peel and rinse. 
+...
+------------------------------------------------------------
+
+3. Document: Lunch Ideas.pdf
+   Page: 1
+   Similarity Score: 0.3942
+   Content Preview: Chicken Caesar Wrap 
+Ingredients: 
+• 
+1 whole wheat tortilla 
+• 
+1 cup cooked chicken breast, sliced 
+• 
+1 cup romaine lettuce, chopped 
+• 
+2 tablespoons Caesar dressing 
+• 
+2 tablespoons grated Parme...
+------------------------------------------------------------
+
+4. Document: Dinner Ideas - Sides_3.pdf
+   Page: 1
+   Similarity Score: 0.3926
+   Content Preview: o 2 cloves garlic 
+o 4 tomatoes 
+o 4 cups vegetable broth 
+o 1 teaspoon cumin 
+o 1 teaspoon coriander 
+o 1 teaspoon turmeric 
+o 1 teaspoon salt 
+o 1/4 cup cilantro 
+ 
+Instructions: 
+o Sauté diced oni...
+------------------------------------------------------------
+
+5. Document: Dinner Ideas - Sides_4.pdf
+   Page: 1
+   Similarity Score: 0.3829
+   Content Preview: o Scramble eggs in the same pan. 
+o Add noodles, fish sauce, tamarind paste, sugar, and lime juice, stir to combine. 
+o Add bean sprouts, cooked shrimp, and chopped green onions. 
+o Garnish with crush...
+------------------------------------------------------------
+

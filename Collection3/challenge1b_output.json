@@ -1,0 +1,88 @@
+{
+    "metadata": {
+        "collection_folder": ".\\Collection3",
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-28T23:51:43.289904"
+    },
+    "extracted_sections": [
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Full Document - Dinner Ideas - Mains_2.pdf",
+            "importance_rank": 1,
+            "page_number": 1,
+            "similarity_score": 0.47047317028045654
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Full Document - Dinner Ideas - Sides_1.pdf",
+            "importance_rank": 2,
+            "page_number": 1,
+            "similarity_score": 0.40447795391082764
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "Full Document - Lunch Ideas.pdf",
+            "importance_rank": 3,
+            "page_number": 1,
+            "similarity_score": 0.3941912055015564
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "Full Document - Dinner Ideas - Sides_3.pdf",
+            "importance_rank": 4,
+            "page_number": 1,
+            "similarity_score": 0.3926485776901245
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "Full Document - Dinner Ideas - Sides_4.pdf",
+            "importance_rank": 5,
+            "page_number": 1,
+            "similarity_score": 0.382917582988739
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": " \n1 teaspoon thyme \n \n1 teaspoon rosemary \n \n1/4 cup olive oil \n \nSalt and pepper to taste \nInstructions: \n \nPreheat oven to 375°F (190°C). \n \nIn a large baking dish, layer diced eggplant, zucchini, bell pepper, onion, and tomatoes. \n \nIn a bowl, mix minced garlic, olive oil, thyme, rosemary, salt, and pepper. \n \nPour the mixture over the vegetables and toss to coat. \n \nBake for 45 minutes until vegetables are tender. \n \nServe warm. \n \n \n \nRoast Chicken \nIngredients: \n \n1 whole chicken \n \n1 lemon, halved \n \n4 cloves garlic, minced \n \n1/4 cup olive oil \n \n1 tablespoon fresh rosemary, chopped \n \n1 tablespoon fresh thyme, chopped \n \nSalt and pepper to taste \nInstructions: \n \nPreheat oven to 375°F (190°C). \n \nSeason the chicken with salt and pepper. \n \nStuff the cavity with lemon halves and minced garlic. \n \nIn a bowl, mix olive oil, chopped rosemary, and chopped thyme. \n \nBrush the mixture over the chicken. \n \nPlace the chicken in a roasting pan and roast for 1 hour and 30 minutes until cooked \nthrough. \n \nLet rest before carving and serving. \n \n \n \nShrimp and Grits \nIngredients: \n \n1 pound shrimp, peeled and deveined \n \n1 cup grits \n \n4 cups water \n \n1/2 cup cheddar cheese, shredded \n \n1/4 cup butter \n \n1 small onion, diced \n \n2 cloves garlic, minced \n\n \n1/4 cup bacon, chopped \n \n1/4 cup green onions, sliced \n \nSalt and pepper to taste \nInstructions: \n \nIn a pot, bring water to a boil and stir in grits. \n \nReduce heat and simmer until thickened, then stir in shredded cheddar cheese and \nbutter. \n \nIn a skillet, cook chopped bacon until crispy, then set aside. \n \nIn the same skillet, sauté diced onion and minced garlic until softened. \n \nAdd shrimp and cook until pink and opaque. \n \nStir in cooked bacon and sliced green onions. \n \nServe shrimp mixture over grits.",
+            "page_number": 1,
+            "similarity_score": 0.47047317028045654
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "Acarajé \n \nIngredients:  \no 2 cups black-eyed peas \no 1 small onion \no 2 cloves garlic \no 1 teaspoon salt \no Oil for frying \n \nInstructions: \no Soak black-eyed peas overnight, then peel and rinse. \no Blend peas with diced onion, minced garlic, and salt until smooth. \no Form mixture into balls and fry in hot oil until golden. \no Drain on paper towels and serve warm. \n \nAgedashi Tofu \n \nIngredients: \no 1 block tofu \no 1/4 cup cornstarch \no 1 cup dashi broth \no 2 tablespoons soy sauce \no 1 tablespoon mirin \no 1/4 cup green onions \no 1/4 cup grated daikon \n \nInstructions: \no Cut tofu into cubes and coat with cornstarch. \no Fry in hot oil until golden. \no Heat dashi broth with soy sauce and mirin. \no Serve tofu in broth, topped with green onions and grated daikon. \n \nAloo Gobi \n \nIngredients: \no 2 potatoes \no 1 cauliflower \no 1 small onion \no 2 cloves garlic \no 1 teaspoon cumin \no 1 teaspoon turmeric \no 1 teaspoon coriander \no 1 teaspoon garam masala \no 1 teaspoon salt \no 2 tablespoons oil \n \nInstructions: \no Peel and dice potatoes, cut cauliflower into florets. \no Heat oil in a pan and sauté diced onion and minced garlic until translucent. \no Add cumin, turmeric, coriander, and garam masala, cook for 1 minute. \n\no Add potatoes and cauliflower, stir to coat with spices. \no Cover and cook until vegetables are tender, stirring occasionally. \no Add salt to taste and serve. \n \nAlbondigas \n \nIngredients: \no 1/2 pound ground beef \no 1/2 pound ground pork \no 1 small onion \no 2 cloves garlic \no 1/4 cup breadcrumbs \no 1 egg \no 1 teaspoon paprika \no 1 teaspoon salt \no 1/2 teaspoon pepper \no 1/4 cup olive oil \no 1 cup tomato sauce \n \nInstructions: \no Mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs, beaten \negg, paprika, salt, and pepper in a bowl. \no Form mixture into meatballs.",
+            "page_number": 1,
+            "similarity_score": 0.40447795391082764
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "Chicken Caesar Wrap \nIngredients: \n• \n1 whole wheat tortilla \n• \n1 cup cooked chicken breast, sliced \n• \n1 cup romaine lettuce, chopped \n• \n2 tablespoons Caesar dressing \n• \n2 tablespoons grated Parmesan cheese \n• \nOptional: croutons for extra crunch \nInstructions: \n• \nLay the tortilla flat and spread the Caesar dressing evenly. \n• \nAdd the chicken, lettuce, and Parmesan cheese. \n• \nRoll up the tortilla tightly and slice in half. \n \n \n \nQuinoa Salad \nIngredients: \n• \n1 cup cooked quinoa \n• \n1/2 cup cherry tomatoes, halved \n• \n1/2 cucumber, diced \n• \n1/4 cup red onion, finely chopped \n• \n1/4 cup feta cheese, crumbled \n• \n2 tablespoons olive oil \n• \n1 tablespoon lemon juice \n• \nSalt and pepper to taste \nInstructions: \n• \nIn a large bowl, combine the quinoa, tomatoes, cucumber, red onion, and feta cheese. \n• \nDrizzle with olive oil and lemon juice. \n• \nSeason with salt and pepper, then toss to combine. \n \n \n \nTurkey and Avocado Sandwich \nIngredients: \n• \n2 slices whole grain bread \n• \n4 slices turkey breast \n• \n1/2 avocado, sliced \n• \n1/2 cup spinach leaves \n• \n1 tablespoon mustard or mayo \nInstructions: \n• \nSpread mustard or mayo on one slice of bread. \n• \nLayer the turkey, avocado, and spinach on top. \n• \nTop with the second slice of bread and cut in half. \n\n \n \n \nGreek Yogurt Parfait \nIngredients: \n• \n1 cup Greek yogurt \n• \n1/2 cup granola \n• \n1/2 cup mixed berries (strawberries, blueberries, raspberries) \n• \n1 tablespoon honey \nInstructions: \n• \nIn a bowl or jar, layer the Greek yogurt, granola, and mixed berries. \n• \nDrizzle with honey. \n• \nRepeat the layers if desired. \n \n \n \nHummus and Veggie Pita \nIngredients: \n• \n1 whole wheat pita bread \n• \n1/2 cup hummus \n• \n1/2 cup cucumber, sliced \n• \n1/2 cup bell pepper, sliced \n• \n1/4 cup shredded carrots \n• \n1/4 cup baby spinach \nInstructions: \n• \nCut the pita bread in half to create pockets.",
+            "page_number": 1,
+            "similarity_score": 0.3941912055015564
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o 2 cloves garlic \no 4 tomatoes \no 4 cups vegetable broth \no 1 teaspoon cumin \no 1 teaspoon coriander \no 1 teaspoon turmeric \no 1 teaspoon salt \no 1/4 cup cilantro \n \nInstructions: \no Sauté diced onion and minced garlic until softened. \no Add diced tomatoes, lentils, chickpeas, vegetable broth, cumin, coriander, \nturmeric, and salt. \no Simmer for 30 minutes until lentils are tender. \no Stir in chopped cilantro and serve warm. \n \nHorta \n \nIngredients: \no 1 pound dandelion greens \no 1/4 cup olive oil \no 1/4 cup lemon juice \no 1 teaspoon salt \n \nInstructions: \no Boil dandelion greens until tender, then drain. \no Toss greens with olive oil, lemon juice, and salt. \no Serve warm or chilled. \n \nHot and Sour Soup \n \nIngredients: \no 4 cups chicken broth \no 1/2 cup sliced mushrooms \no 1/4 cup bamboo shoots \no 1/4 cup tofu \no 2 tablespoons soy sauce \no 2 tablespoons rice vinegar \no 1 tablespoon cornstarch \no 1 teaspoon chili paste \no 1 egg \no 1/4 cup chopped green onions \n \nInstructions: \no Bring chicken broth to a boil. \no Add mushrooms, bamboo shoots, tofu, soy sauce, rice vinegar, and chili paste. \no Mix cornstarch with water and add to the soup, stirring until thickened. \no Beat egg and slowly pour into the soup, stirring constantly. \no Garnish with chopped green onions and serve. \n\n \nHummus \n \nIngredients: \no 1 can chickpeas \no 1/4 cup tahini \no 1/4 cup lemon juice \no 2 cloves garlic \no 1/4 cup olive oil \no 1 teaspoon salt \n \nInstructions: \no Drain and rinse chickpeas. \no Blend chickpeas, tahini, lemon juice, minced garlic, and salt in a food processor. \no Slowly add olive oil while blending until smooth. \no Serve with a drizzle of olive oil. \n \nJapchae \n \nIngredients: \no 8 ounces sweet potato noodles \no 1/2 pound beef \no 1 small onion \no 1 carrot \no 1 bell pepper \no 1 cup spinach \no 2 tablespoons soy sauce \no 1 tablespoon sesame oil \no 1 tablespoon sugar \no 1 tablespoon sesame seeds \n \nInstructions: \no Cook noodles according to package instructions, then drain.",
+            "page_number": 1,
+            "similarity_score": 0.3926485776901245
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o Scramble eggs in the same pan. \no Add noodles, fish sauce, tamarind paste, sugar, and lime juice, stir to combine. \no Add bean sprouts, cooked shrimp, and chopped green onions. \no Garnish with crushed peanuts and serve. \n \nPajeon (Pancakes) \n \nIngredients: \no 1 cup flour \no 1 cup water \no 1 egg \no 1/2 cup green onions \no 1/2 cup seafood (optional) \no 1 tablespoon soy sauce \no 1 tablespoon sesame oil \n \nInstructions: \no Mix flour, water, and beaten egg in a bowl. \no Add chopped green onions and seafood (if using). \no Heat sesame oil in a pan and pour in batter. \no Cook until golden on both sides. \no Serve with soy sauce for dipping. \n \nPan con Tomate \n \nIngredients: \no 1 baguette \no 4 tomatoes \no 2 cloves garlic \no 1/4 cup olive oil \no 1 teaspoon salt \n \nInstructions: \no Slice baguette and toast until golden. \no Rub toasted bread with cut garlic cloves. \no Grate tomatoes and spread on bread. \no Drizzle with olive oil and sprinkle with salt. \no Serve immediately. \n \nPaneer Tikka \n \nIngredients: \no 1 pound paneer \no 1/2 cup yogurt \no 1 tablespoon lemon juice \no 1 teaspoon cumin \no 1 teaspoon coriander \no 1 teaspoon garam masala \no 1 teaspoon turmeric \n\no 1 teaspoon salt \no Skewers \n \nInstructions: \no Cut paneer into cubes. \no Mix yogurt, lemon juice, cumin, coriander, garam masala, turmeric, and salt in a \nbowl. \no Add paneer cubes and marinate for at least 1 hour. \no Thread paneer onto skewers. \no Grill or broil until golden, turning occasionally. \no Serve warm. \n \nPanzanella \n \nIngredients: \no 4 cups cubed bread \no 4 tomatoes \no 1 cucumber \no 1 small red onion \no 1/4 cup basil \no 1/4 cup olive oil \no 2 tablespoons red wine vinegar \no 1 teaspoon salt \n \nInstructions: \no Toast bread cubes until golden. \no Dice tomatoes and cucumber, slice red onion. \no Mix bread, tomatoes, cucumber, onion, and chopped basil.",
+            "page_number": 1,
+            "similarity_score": 0.382917582988739
+        }
+    ]
+}

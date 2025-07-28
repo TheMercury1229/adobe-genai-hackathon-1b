@@ -1,0 +1,94 @@
+{
+    "metadata": {
+        "collection_folder": ".\\Collection2",
+        "input_documents": [
+            "Learn Acrobat - Create and Convert_1.pdf",
+            "Learn Acrobat - Create and Convert_2.pdf",
+            "Learn Acrobat - Edit_1.pdf",
+            "Learn Acrobat - Edit_2.pdf",
+            "Learn Acrobat - Export_1.pdf",
+            "Learn Acrobat - Export_2.pdf",
+            "Learn Acrobat - Fill and Sign.pdf",
+            "Learn Acrobat - Generative AI_1.pdf",
+            "Learn Acrobat - Generative AI_2.pdf",
+            "Learn Acrobat - Request e-signatures_1.pdf",
+            "Learn Acrobat - Request e-signatures_2.pdf",
+            "Learn Acrobat - Share_1.pdf",
+            "Learn Acrobat - Share_2.pdf",
+            "Test Your Acrobat Exporting Skills.pdf",
+            "The Ultimate PDF Sharing Checklist.pdf"
+        ],
+        "persona": "HR professional",
+        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+        "processing_timestamp": "2025-07-28T23:51:40.879599"
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Resources",
+            "importance_rank": 1,
+            "page_number": 21,
+            "similarity_score": 0.4982895851135254
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Fill and sign PDF forms",
+            "importance_rank": 2,
+            "page_number": 2,
+            "similarity_score": 0.4865395724773407
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "To fill text fields:",
+            "importance_rank": 3,
+            "page_number": 2,
+            "similarity_score": 0.475219190120697
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Is the form fillable?",
+            "importance_rank": 4,
+            "page_number": 8,
+            "similarity_score": 0.4563394784927368
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Signer's experience",
+            "importance_rank": 5,
+            "page_number": 8,
+            "similarity_score": 0.4496736228466034
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "Set privileges and permissions for others \n• \nCertify a document while leaving portions of it available for form filling, signatures, or \ncomments \n• \nUse Acrobat Pro software to enable users of Reader 9 or later to sign with certificate \nIDs \n• \nUse Acrobat Standard or Pro to encrypt a PDF document with a certificate ID to restrict \nusage such as printing, editing, or copying \n \nWhat if my organization isn’t prepared to set up certificate-\nbased signatures? \nConsider signing up for Adobe Acrobat Sign online, the leader in e-signatures and web \ncontracting. With Acrobat Sign, you can get PDF, Microsoft Word, and other documents sent, \nsigned, and filed instantly. And best of all, Adobe hosts it securely, so your IT department \ndoesn’t have to do the work of setting up a signature infrastructure. \n \nResources \nAdobe Approved Trust List (AATL): The Adobe Approved Trust List is a program that allows \nmillions of users worldwide to create digital signatures that are trusted whenever the signed \ndocument is opened in Acrobat or Reader software. Check out the current members. \nAdobe Security and Privacy Portal: A good first stop for all things security and privacy at \nAdobe. \nCertified Document Services: Certified Document Services (CDS) was the predecessor to the \nAATL. \nContent Security Library: Extensive documentation on Adobe certificate signature \nadministration. \nManaging Digital IDs: Help pages for digital ID management. \nA certificate-based signature, like a conventional handwritten signature, identifies the person \nsigning a document. Unlike a handwritten signature, a certificate-based signature is difficult to \nforge because it contains encrypted information that is unique to the signer. It can be easily \nverified and informs recipients whether the document was modified after the signer initially \nsigned it.",
+            "page_number": 21,
+            "similarity_score": 0.4982895851135254
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Types of PDF forms  \n• \nInteractive forms: These contain fields that you can select and fill in. \n• \nFlat forms: These do not have interactive fields. It could be a paper form or PDF that \nhasn’t been optimized for form filling. The Fill & Sign tool automatically detects the \nform fields like text fields, comb fields, checkboxes, and radio buttons. You can \nmanually add text and other symbols anywhere on the form using the Fill & Sign tool if \nrequired. \nYou can complete the forms by entering information and adding your signatures. Acrobat \nalso allows you to send your completed forms to others and securely save them in Adobe \ncloud storage. \n \nFill and sign PDF forms \nTo complete and sign PDF forms, open the form in Acrobat and then select E-Sign from the \nglobal bar. Alternatively, you can select All tools > Fill & Sign. \nIt displays the Fill & Sign tools in the left pane. You can now fill in the form fields and sign the \nform using the sign tools described in the following topics. \n \nTo fill text fields: \n1. From the left panel, select Fill in form fields \n, and then select the field where you \nwant to add text. \nIt displays a text field along with a toolbar. \n2. Select the text field again and enter your text. \n3. To reposition the text box to align it with the text field, select the textbox and hover \nover it. Once you see a plus icon with arrows, move the textbox to the desired \nposition. \n4. To edit the text, select the text box. Once you see the cursor and keypad, edit the text \nand then click elsewhere to enter. \n5. To change the text size, select A or A as required.",
+            "page_number": 2,
+            "similarity_score": 0.4865395724773407
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Types of PDF forms  \n• \nInteractive forms: These contain fields that you can select and fill in. \n• \nFlat forms: These do not have interactive fields. It could be a paper form or PDF that \nhasn’t been optimized for form filling. The Fill & Sign tool automatically detects the \nform fields like text fields, comb fields, checkboxes, and radio buttons. You can \nmanually add text and other symbols anywhere on the form using the Fill & Sign tool if \nrequired. \nYou can complete the forms by entering information and adding your signatures. Acrobat \nalso allows you to send your completed forms to others and securely save them in Adobe \ncloud storage. \n \nFill and sign PDF forms \nTo complete and sign PDF forms, open the form in Acrobat and then select E-Sign from the \nglobal bar. Alternatively, you can select All tools > Fill & Sign. \nIt displays the Fill & Sign tools in the left pane. You can now fill in the form fields and sign the \nform using the sign tools described in the following topics. \n \nTo fill text fields: \n1. From the left panel, select Fill in form fields \n, and then select the field where you \nwant to add text. \nIt displays a text field along with a toolbar. \n2. Select the text field again and enter your text. \n3. To reposition the text box to align it with the text field, select the textbox and hover \nover it. Once you see a plus icon with arrows, move the textbox to the desired \nposition. \n4. To edit the text, select the text box. Once you see the cursor and keypad, edit the text \nand then click elsewhere to enter. \n5. To change the text size, select A or A as required. \n\n \nNote:  \nResize the first annotation you place to fit the check box or radio button in the \ndocument, and the next annotations you add will be of the same size and will fit the \nrest of the box/circle fields.",
+            "page_number": 2,
+            "similarity_score": 0.475219190120697
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Fill in PDF Forms \n \nIs the form fillable? \nNot all forms are fillable. Sometimes form creators don’t convert their PDFs to \ninteractive fillable forms. Or, they intentionally design a form that you can fill in only by hand \nor with the Fill & Sign tool. These non-interactive forms are called flat forms. \n \nFill in interactive forms \nAn interactive form contains fields that you can select or fill in. \n \n1. If necessary, select either the Hand Tool or the Select Tool from the context menu of \nthe page (right-click on the page to open the context menu). \n  \nThe pointer changes to a different icon as you move it over a field. For example, \nthe Hand \n tool changes to an I-beam  when you can type text into the form field. \nSome text fields are dynamic, meaning that they automatically resize to accommodate \nthe amount of data you enter and can span across pages.",
+            "page_number": 8,
+            "similarity_score": 0.4563394784927368
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "Signer's experience \nA signer receives an email with a link to sign the agreement. Also, if the signer uses Acrobat or \nAcrobat Reader desktop application, the signer sees a notification that an agreement has \nbeen shared for signing.  \nNote: Signers are not required to sign up or purchase any Adobe product to sign agreements. \nThey can sign agreements using a web browser, mobile device, or Acrobat / Acrobat Reader \ndesktop application. \nSend in bulk allows you to upload a form and use that as a template to create and send many \n(hundreds!) of unique agreements, each dedicated to one external signer. Each agreement is \ninsulated from the others and contains its own audit report. Each recipient is unaware of all \nother recipients. \nThe sender has access to the agreements through their Home or Documents tab or through \nthe Send in bulk template, which contains an Agreements report that tracks the overall status \nof the child agreements created from the template. Additionally, the sender can export the \nfield-level data of all completed agreements in a CSV format using the Download Form Field \nData action. \n \nTo access the Send in bulk feature, do one of the following: \n• \nIn the Acrobat desktop app, go to the Tools center, scroll down to the E-Sign section, \nand then select Send in bulk. \n• \nSign in to Acrobat online, select the E-Sign menu in the top navigation bar, and then \nselect Send in bulk.",
+            "page_number": 8,
+            "similarity_score": 0.4496736228466034
+        }
+    ]
+}

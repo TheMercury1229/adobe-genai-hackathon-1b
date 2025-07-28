@@ -1,0 +1,109 @@
+SEMANTIC SEARCH RESULTS SUMMARY
+================================================================================
+
+Processing Information:
+  • Collection folder: .\Collection2
+  • Persona: HR professional
+  • Job: Create and manage fillable forms for onboarding and compliance.
+  • Documents processed: 15
+  • Processing time: 2025-07-28T23:51:40.879599
+
+Input Documents:
+  • Learn Acrobat - Create and Convert_1.pdf
+  • Learn Acrobat - Create and Convert_2.pdf
+  • Learn Acrobat - Edit_1.pdf
+  • Learn Acrobat - Edit_2.pdf
+  • Learn Acrobat - Export_1.pdf
+  • Learn Acrobat - Export_2.pdf
+  • Learn Acrobat - Fill and Sign.pdf
+  • Learn Acrobat - Generative AI_1.pdf
+  • Learn Acrobat - Generative AI_2.pdf
+  • Learn Acrobat - Request e-signatures_1.pdf
+  • Learn Acrobat - Request e-signatures_2.pdf
+  • Learn Acrobat - Share_1.pdf
+  • Learn Acrobat - Share_2.pdf
+  • Test Your Acrobat Exporting Skills.pdf
+  • The Ultimate PDF Sharing Checklist.pdf
+
+Top Relevant Sections (by importance):
+--------------------------------------------------------------------------------
+
+1. Resources
+   Document: Learn Acrobat - Request e-signatures_1.pdf
+   Page: 21
+   Similarity Score: 0.4983
+
+2. Fill and sign PDF forms
+   Document: Learn Acrobat - Fill and Sign.pdf
+   Page: 2
+   Similarity Score: 0.4865
+
+3. To fill text fields:
+   Document: Learn Acrobat - Fill and Sign.pdf
+   Page: 2
+   Similarity Score: 0.4752
+
+4. Is the form fillable?
+   Document: Learn Acrobat - Fill and Sign.pdf
+   Page: 8
+   Similarity Score: 0.4563
+
+5. Signer's experience
+   Document: Learn Acrobat - Request e-signatures_1.pdf
+   Page: 8
+   Similarity Score: 0.4497
+
+Detailed Content Analysis:
+--------------------------------------------------------------------------------
+
+1. Document: Learn Acrobat - Request e-signatures_1.pdf
+   Page: 21
+   Similarity Score: 0.4983
+   Content Preview: Set privileges and permissions for others 
+• 
+Certify a document while leaving portions of it available for form filling, signatures, or 
+comments 
+• 
+Use Acrobat Pro software to enable users of Reade...
+------------------------------------------------------------
+
+2. Document: Learn Acrobat - Fill and Sign.pdf
+   Page: 2
+   Similarity Score: 0.4865
+   Content Preview: Types of PDF forms  
+• 
+Interactive forms: These contain fields that you can select and fill in. 
+• 
+Flat forms: These do not have interactive fields. It could be a paper form or PDF that 
+hasn’t been...
+------------------------------------------------------------
+
+3. Document: Learn Acrobat - Fill and Sign.pdf
+   Page: 2
+   Similarity Score: 0.4752
+   Content Preview: Types of PDF forms  
+• 
+Interactive forms: These contain fields that you can select and fill in. 
+• 
+Flat forms: These do not have interactive fields. It could be a paper form or PDF that 
+hasn’t been...
+------------------------------------------------------------
+
+4. Document: Learn Acrobat - Fill and Sign.pdf
+   Page: 8
+   Similarity Score: 0.4563
+   Content Preview: Fill in PDF Forms 
+ 
+Is the form fillable? 
+Not all forms are fillable. Sometimes form creators don’t convert their PDFs to 
+interactive fillable forms. Or, they intentionally design a form that you c...
+------------------------------------------------------------
+
+5. Document: Learn Acrobat - Request e-signatures_1.pdf
+   Page: 8
+   Similarity Score: 0.4497
+   Content Preview: Signer's experience 
+A signer receives an email with a link to sign the agreement. Also, if the signer uses Acrobat or 
+Acrobat Reader desktop application, the signer sees a notification that an agree...
+------------------------------------------------------------
+

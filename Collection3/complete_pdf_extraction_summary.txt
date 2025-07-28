@@ -1,0 +1,60 @@
+COMPLETE PDF EXTRACTION SUMMARY
+============================================================
+
+Collection folder: .\Collection3
+Persona: Food Contractor
+Job to be done: Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.
+
+Processing Summary:
+  - Total PDFs: 9
+  - Successfully processed: 9
+  - Total sections extracted: 9
+
+Detailed Breakdown:
+----------------------------------------
+
+PDF: Breakfast Ideas.pdf
+Sections: 1
+Total characters: 16,826
+  1. Full Document - Breakfast Ideas.pdf (pages 1-16) - 16,826 chars
+
+PDF: Dinner Ideas - Mains_1.pdf
+Sections: 1
+Total characters: 19,819
+  1. Full Document - Dinner Ideas - Mains_1.pdf (pages 1-15) - 19,819 chars
+
+PDF: Dinner Ideas - Mains_2.pdf
+Sections: 1
+Total characters: 20,193
+  1. Full Document - Dinner Ideas - Mains_2.pdf (pages 1-15) - 20,193 chars
+
+PDF: Dinner Ideas - Mains_3.pdf
+Sections: 1
+Total characters: 11,869
+  1. Full Document - Dinner Ideas - Mains_3.pdf (pages 1-9) - 11,869 chars
+
+PDF: Dinner Ideas - Sides_1.pdf
+Sections: 1
+Total characters: 16,897
+  1. Full Document - Dinner Ideas - Sides_1.pdf (pages 1-15) - 16,897 chars
+
+PDF: Dinner Ideas - Sides_2.pdf
+Sections: 1
+Total characters: 17,849
+  1. Full Document - Dinner Ideas - Sides_2.pdf (pages 1-15) - 17,849 chars
+
+PDF: Dinner Ideas - Sides_3.pdf
+Sections: 1
+Total characters: 18,370
+  1. Full Document - Dinner Ideas - Sides_3.pdf (pages 1-15) - 18,370 chars
+
+PDF: Dinner Ideas - Sides_4.pdf
+Sections: 1
+Total characters: 17,790
+  1. Full Document - Dinner Ideas - Sides_4.pdf (pages 1-15) - 17,790 chars
+
+PDF: Lunch Ideas.pdf
+Sections: 1
+Total characters: 16,610
+  1. Full Document - Lunch Ideas.pdf (pages 1-15) - 16,610 chars
+

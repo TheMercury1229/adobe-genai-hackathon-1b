@@ -1,96 +1,50 @@
 COMPLETE PDF EXTRACTION SUMMARY
 ============================================================
 
-Collection folder: ..\Collection1
+Collection folder: .\Collection1
 Persona: Travel Planner
 Job to be done: Plan a trip of 4 days for a group of 10 college friends.
 
 Processing Summary:
   - Total PDFs: 7
-  - Successfully processed: 6
-  - Total sections extracted: 57
+  - Successfully processed: 7
+  - Total sections extracted: 7
 
 Detailed Breakdown:
 ----------------------------------------
 
 PDF: South of France - Cities.pdf
-Sections: 10
-Total characters: 17,836
-  1. Marseille: The Oldest City in France (pages 3-4) - 2,149 chars
-  2. Nice: The Jewel of the French Riviera (pages 5-6) - 2,090 chars
-  3. Avignon: The City of Popes (pages 7-7) - 1,818 chars
-  4. Aix-en-Provence: A City of Art and Culture (pages 8-8) - 2,099 chars
-  5. Toulouse: The Pink City (pages 9-9) - 1,860 chars
-  6. Montpellier: A University City with Medieval Charm (pages 10-10) - 1,783 chars
-  7. Perpignan: A Blend of French and Catalan Cultures (pages 11-11) - 1,788 chars
-  8. Arles: A Roman Treasure (pages 12-12) - 1,710 chars
-  9. Carcassonne: A Medieval Fortress (pages 13-13) - 1,848 chars
-  10. Conclusion (pages 14-14) - 691 chars
+Sections: 1
+Total characters: 19,627
+  1. Full Document - South of France - Cities.pdf (pages 1-14) - 19,627 chars
 
 PDF: South of France - Cuisine.pdf
-Sections: 5
-Total characters: 10,724
-  1. Famous Dishes (pages 3-3) - 2,109 chars
-  2. Must-Visit Restaurants (pages 4-4) - 2,407 chars
-  3. Wine Regions and Types of Wines (pages 5-5) - 2,328 chars
-  4. Culinary Experiences (pages 6-7) - 3,249 chars
-  5. Conclusion (pages 8-8) - 631 chars
+Sections: 1
+Total characters: 13,303
+  1. Full Document - South of France - Cuisine.pdf (pages 1-8) - 13,303 chars
 
 PDF: South of France - History.pdf
-Sections: 10
-Total characters: 13,350
-  1. Nice: The Jewel of the French Riviera (pages 3-3) - 1,503 chars
-  2. Avignon: The City of Popes (pages 4-4) - 1,484 chars
-  3. Nîmes: The Rome of France (pages 5-5) - 1,346 chars
-  4. Carcassonne: A Medieval Fortress (pages 6-6) - 1,372 chars
-  5. Toulouse: The Pink City (pages 7-7) - 1,397 chars
-  6. Arles: A Roman Treasure (pages 8-8) - 1,366 chars
-  7. Aix-en-Provence: A City of Art and Culture (pages 9-9) - 1,549 chars
-  8. Montpellier: A University City with Medieval Charm (pages 10-10) - 1,306 chars
-  9. Perpignan: A Blend of French and Catalan Cultures (pages 11-11) - 1,383 chars
-  10. Conclusion (pages 12-12) - 644 chars
+Sections: 1
+Total characters: 15,480
+  1. Full Document - South of France - History.pdf (pages 1-12) - 15,480 chars
+
+PDF: South of France - Restaurants and Hotels.pdf
+Sections: 1
+Total characters: 20,474
+  1. Full Document - South of France - Restaurants and Hotels.pdf (pages 1-14) - 20,474 chars
 
 PDF: South of France - Things to Do.pdf
-Sections: 18
-Total characters: 23,520
-  1. Cultural Experiences (pages 3-2) - 1,346 chars
-  2. Art and Museums (pages 3-3) - 1,346 chars
-  3. Outdoor Activities (pages 4-3) - 1,372 chars
-  4. Hiking and Biking (pages 4-4) - 1,372 chars
-  5. Culinary Delights (pages 5-4) - 1,268 chars
-  6. Wine Tasting (pages 5-5) - 1,268 chars
-  7. Festivals and Events (pages 6-5) - 780 chars
-  8. Cannes : Attend the prestigious Cannes Film Festival in May. (pages 6-6) - 780 chars
-  9. Relaxation and Wellness (pages 7-6) - 1,238 chars
-  10. Spa and Wellness Retreats (pages 7-6) - 1,238 chars
-  11. Aix-en-Provence : Visit Thermes Sextius for thermal baths and massages. (pages 7-7) - 1,238 chars
-  12. Shopping and Markets (pages 8-7) - 1,396 chars
-  13. Local Markets (pages 8-8) - 1,396 chars
-  14. Family-Friendly Activities (pages 9-8) - 1,574 chars
-  15. Theme Parks and Attractions (pages 9-10) - 2,238 chars
-  16. Nightlife and Entertainment (pages 11-10) - 1,547 chars
-  17. Bars and Lounges (pages 11-12) - 1,547 chars
-  18. Conclusion (pages 13-13) - 576 chars
+Sections: 1
+Total characters: 13,757
+  1. Full Document - South of France - Things to Do.pdf (pages 1-13) - 13,757 chars
 
 PDF: South of France - Tips and Tricks.pdf
-Sections: 13
-Total characters: 16,163
-  1. Packing for All Seasons (pages 3-2) - 1,571 chars
-  2. Spring (March to May) (pages 3-3) - 1,571 chars
-  3. Packing for Adults (pages 4-4) - 1,591 chars
-  4. Additional Tips: Download maps and travel guides to your devices for oﬄine use. (pages 5-5) - 156 chars
-  5. Packing for Kids (pages 6-5) - 1,474 chars
-  6. Clothing (pages 6-5) - 1,474 chars
-  7. Comfortable Wear: T-shirts, shorts, pants, dresses, pajamas, and underwear. (pages 6-6) - 1,474 chars
-  8. Additional Tips: Bring a favorite stuﬀed animal or comfort item to help kids feel at (pages 7-6) - 1,543 chars
-  9. Special Considerations (pages 7-7) - 1,543 chars
-  10. Notebook: Bring a notebook to jot down notes about the wines you taste. (pages 8-7) - 1,115 chars
-  11. Water Bottle: Stay hydrated by drinking water between tastings. (pages 8-7) - 1,115 chars
-  12. Additional Tips: Plan your wine tour route in advance and consider hiring a driver or (pages 8-8) - 1,115 chars
-  13. Conclusion (pages 9-9) - 421 chars
+Sections: 1
+Total characters: 9,835
+  1. Full Document - South of France - Tips and Tricks.pdf (pages 1-9) - 9,835 chars
 
 PDF: South of France - Traditions and Culture.pdf
 Sections: 1
-Total characters: 1,789
-  1. Music and Dance (pages 5-5) - 1,789 chars
+Total characters: 8,650
+  1. Full Document - South of France - Traditions and Culture.pdf (pages 1-5) - 8,650 chars
 
