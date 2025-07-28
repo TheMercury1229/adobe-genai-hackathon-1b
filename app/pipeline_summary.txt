@@ -1,0 +1,23 @@
+COLLECTION PROCESSING PIPELINE SUMMARY
+================================================================================
+
+Processing Statistics:
+  Collections found: 2
+  Collections processed: 2
+  Collections failed: 0
+  Success rate: 100.0%
+
+Start time: 2025-07-28T22:54:44.290596
+End time: 2025-07-28T22:54:47.337174
+
+Detailed Results:
+----------------------------------------
+
+Collection1: SUCCESS
+  ✓ Completed: validation → json_mapping → text_extraction → semantic_search
+  📄 Output files: complete_pdf_extraction.json, complete_pdf_extraction_summary.txt, semantic_search_results.json, semantic_search_results_summary.txt
+
+Collection2: SUCCESS
+  ✓ Completed: validation → json_mapping → text_extraction → semantic_search
+  📄 Output files: complete_pdf_extraction.json, complete_pdf_extraction_summary.txt, semantic_search_results.json, semantic_search_results_summary.txt
+

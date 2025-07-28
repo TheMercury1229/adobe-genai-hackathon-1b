@@ -1,5 +1,6 @@
 """
 Script to parse input.json, load outline JSONs, and create mapping between PDF filenames and outlines.
+Updated version with configurable collection folder path.
 """
 
 import json
@@ -7,11 +8,15 @@ import os
 import glob
 
 
-def load_outline_files(outline_folder="Collection1/JSON"):
+def load_outline_files(collection_folder):
     """
-    Load all outline JSON files from the specified folder.
+    Load all outline JSON files from the specified collection folder's JSON subfolder.
     Returns a dictionary mapping filenames to their outline structures.
+    
+    Args:
+        collection_folder (str): Path to the collection folder (e.g., "../Collection1")
     """
+    outline_folder = os.path.join(collection_folder, "JSON")
     print(f"Loading outline files from: {outline_folder}")
     outline_data = {}
     outline_files = glob.glob(os.path.join(outline_folder, "*.json"))
@@ -45,13 +50,19 @@ def load_outline_files(outline_folder="Collection1/JSON"):
     return outline_data
 
 
-def process_json_with_outlines(input_filename="Collection1/challenge1b_input.json", outline_folder="Collection1/JSON"):
+def process_json_with_outlines(collection_folder, input_filename="challenge1b_input.json"):
     """
     Load JSON file, extract information, and create mapping to outline structures.
+    
+    Args:
+        collection_folder (str): Path to the collection folder (e.g., "../Collection1")
+        input_filename (str): Name of the input JSON file (default: "b.json")
     """
+    input_path = os.path.join(collection_folder, input_filename)
+    
     try:
         # Load and parse input.json
-        with open(input_filename, 'r', encoding='utf-8') as file:
+        with open(input_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
 
         # Extract required information
@@ -60,8 +71,8 @@ def process_json_with_outlines(input_filename="Collection1/challenge1b_input.jso
         pdf_filenames = [doc["filename"] for doc in data["documents"]]
 
         # Load outline files
-        print(f"\nLoading outline files from: {outline_folder}")
-        outline_data = load_outline_files(outline_folder)
+        print(f"\nLoading outline files from: {collection_folder}")
+        outline_data = load_outline_files(collection_folder)
         print(f"Loaded {len(outline_data)} outline files")
         print(f"Outline filenames: {list(outline_data.keys())}")
         print(f"PDF filenames from input.json: {pdf_filenames}")
@@ -96,13 +107,13 @@ def process_json_with_outlines(input_filename="Collection1/challenge1b_input.jso
         return persona, job, pdf_filenames, pdf_to_outline_mapping
 
     except FileNotFoundError:
-        print(f"Error: {input_filename} file not found.")
+        print(f"Error: {input_path} file not found.")
         return None, None, None, None
     except KeyError as e:
         print(f"Error: Missing key in JSON - {e}")
         return None, None, None, None
     except json.JSONDecodeError:
-        print(f"Error: Invalid JSON format in {input_filename}")
+        print(f"Error: Invalid JSON format in {input_path}")
         return None, None, None, None
 
 
@@ -125,8 +136,11 @@ def print_mapping_summary(pdf_to_outline_mapping):
 
 
 if __name__ == "__main__":
+    # Default collection folder for standalone execution
+    default_collection = "../Collection1"
+    
     # Process the JSON and create mappings
-    persona, job, filenames, mapping = process_json_with_outlines()
+    persona, job, filenames, mapping = process_json_with_outlines(default_collection)
 
     if mapping:
         print_mapping_summary(mapping)
