@@ -1,0 +1,101 @@
+SEMANTIC SEARCH RESULTS SUMMARY
+================================================================================
+
+Processing Information:
+  • Collection folder: ..\Collection1
+  • Persona: Travel Planner
+  • Job: Plan a trip of 4 days for a group of 10 college friends.
+  • Documents processed: 6
+  • Processing time: 2025-07-28T22:54:45.989897
+
+Input Documents:
+  • South of France - Cities.pdf
+  • South of France - Cuisine.pdf
+  • South of France - History.pdf
+  • South of France - Things to Do.pdf
+  • South of France - Tips and Tricks.pdf
+  • South of France - Traditions and Culture.pdf
+
+Top Relevant Sections (by importance):
+--------------------------------------------------------------------------------
+
+1. Additional Tips: Plan your wine tour route in advance and consider hiring a driver or
+   Document: South of France - Tips and Tricks.pdf
+   Page: 8
+   Similarity Score: 0.4736
+
+2. Conclusion
+   Document: South of France - Tips and Tricks.pdf
+   Page: 9
+   Similarity Score: 0.4560
+
+3. Notebook: Bring a notebook to jot down notes about the wines you taste.
+   Document: South of France - Tips and Tricks.pdf
+   Page: 8
+   Similarity Score: 0.3899
+
+4. Water Bottle: Stay hydrated by drinking water between tastings.
+   Document: South of France - Tips and Tricks.pdf
+   Page: 8
+   Similarity Score: 0.3872
+
+5. Packing for Adults
+   Document: South of France - Tips and Tricks.pdf
+   Page: 4
+   Similarity Score: 0.3127
+
+Detailed Content Analysis:
+--------------------------------------------------------------------------------
+
+1. Document: South of France - Tips and Tricks.pdf
+   Page: 8
+   Similarity Score: 0.4736
+   Content Preview: • 
+Notebook: Bring a notebook to jot down notes about the wines you taste. 
+• 
+Water Bottle: Stay hydrated by drinking water between tastings. 
+• 
+Additional Tips: Plan your wine tour route in advance...
+------------------------------------------------------------
+
+2. Document: South of France - Tips and Tricks.pdf
+   Page: 9
+   Similarity Score: 0.4560
+   Content Preview: Conclusion 
+Packing for a trip to the South of France involves considering the season, planned activities, 
+and the needs of both adults and children. By following this comprehensive guide and 
+incorp...
+------------------------------------------------------------
+
+3. Document: South of France - Tips and Tricks.pdf
+   Page: 8
+   Similarity Score: 0.3899
+   Content Preview: • 
+Notebook: Bring a notebook to jot down notes about the wines you taste. 
+• 
+Water Bottle: Stay hydrated by drinking water between tastings. 
+• 
+Additional Tips: Plan your wine tour route in advance...
+------------------------------------------------------------
+
+4. Document: South of France - Tips and Tricks.pdf
+   Page: 8
+   Similarity Score: 0.3872
+   Content Preview: • 
+Notebook: Bring a notebook to jot down notes about the wines you taste. 
+• 
+Water Bottle: Stay hydrated by drinking water between tastings. 
+• 
+Additional Tips: Plan your wine tour route in advance...
+------------------------------------------------------------
+
+5. Document: South of France - Tips and Tricks.pdf
+   Page: 4
+   Similarity Score: 0.3127
+   Content Preview: • 
+Additional Tips: Winter is mild compared to other regions, but it's still important to 
+pack warm clothing for cooler evenings. Consider packing thermal underwear for 
+extra warmth. 
+Packing for Ad...
+------------------------------------------------------------
+
