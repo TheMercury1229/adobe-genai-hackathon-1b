@@ -1,0 +1,15 @@
+{
+    "title": "Copy images",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "images before text .",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Take a snapshot of a page",
+            "page": 3
+        }
+    ]
+}

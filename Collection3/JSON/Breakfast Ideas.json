@@ -1,0 +1,40 @@
+{
+    "title": "Pancakes",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "Breakfast Sandwich",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Granola Bars",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Breakfast Bowl",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Egg Muﬃns",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "Greek Yogurt with Honey and Nuts",
+            "page": 14
+        },
+        {
+            "level": "H1",
+            "text": "Berry and Spinach Smoothie",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "Cottage Cheese and Veggie Bowl",
+            "page": 16
+        }
+    ]
+}

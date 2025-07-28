@@ -1,0 +1,250 @@
+{
+    "title": "Fill and Sign PDF Forms",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "You can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "of PDF forms",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "Interactive forms : These contain fields that you can select and fill in.",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Flat forms : These do not have interactive fields. It could be a paper form or PDF that",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "Fill and sign PDF forms",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "To fill radio option fields:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "To add signature and initials:",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Note: You may also add an image as your signature or initials. To add an existing",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Caution:",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Fill in PDF Forms",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Is the form fillable?",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Fill in interactive forms",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Auto-Complete forms (interactive forms",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "only)",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Complete then suggests or even automatically enters responses that match your typing in",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Enable the Auto-Complete option",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "/ Acrobat Reader > Preferences (macOS).",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Delete an entry from the Auto-Complete memory",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Reader > Preferences (macOS).",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Change flat forms to fillable (Acrobat Pro)",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Interactive form",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Flat form",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Form Fill-in & Save) .",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "Save forms",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "As in macOS) and rename the file.",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Copy in macOS).",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Windows® : Save As Other > Acrobat Reader Extended PDF > Enable More Tools",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "(Includes Form Fill-in & Save)",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "macOS : File > Save As Other > Acrobat Reader Extended PDF > Enable More Tools",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "(Includes Form Fill-in & Save) .",
+            "page": 13
+        },
+        {
+            "level": "H1",
+            "text": "Print forms",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Text tool.",
+            "page": 14
+        },
+        {
+            "level": "H1",
+            "text": "Clear unsaved form entries",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 16
+        },
+        {
+            "level": "H1",
+            "text": "Sign an agreement",
+            "page": 16
+        },
+        {
+            "level": "H1",
+            "text": "Sign using Acrobat/Reader desktop application",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Note: If you are signing for the first time, you see the Signature or Initials panel as",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Type: Type your name in the field. You can choose from a small selection of",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Draw: Draw your signature in the field.",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Image: Browse and select an image of your signature.",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Mobile: Select this option to create your signature on a mobile device. Enter",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Save: When this check box is selected, and you're signed in to Acrobat",
+            "page": 17
+        },
+        {
+            "level": "H1",
+            "text": "Sign using the email link",
+            "page": 17
+        },
+        {
+            "level": "H1",
+            "text": "Remove your signature or initials",
+            "page": 18
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "title": "Multiple document support in AI Assistant",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "Persistent chat history",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Clear chat history",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "continue asking questions, start a new chat . You can select Start new chat in the lower right",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Copy chat history",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Read-aloud generated responses",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Change the playback speed",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Custom voice for read-aloud feature",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "Acrobat > Ask AI Assistant .",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Remove files from a collection",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Request access in Acrobat",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Note: To check the status of your request, select Refresh on the AI Assistant.",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "Request access from the Admin Console (Teams hybrid admins)",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "to this product page.",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 14
+        },
+        {
+            "level": "H1",
+            "text": "Review the status of your request",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "Common questions",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "I have multiple profiles associated with my Adobe account. How do I select which profile to",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "send a request from?",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "What if I can’t find the option to request access to AI Assistant for Acrobat?",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "What notifications do I receive if a request is approved, declined, or pending?",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "What happens if my request is declined?",
+            "page": 16
+        },
+        {
+            "level": "H1",
+            "text": "Prerequisites",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Update Acrobat . Ensure Acrobat is up-to-date by following instructions in the Release",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Enable new Acrobat .",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Administrators : To turn on the new Acrobat for users, use the registry key",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Users : Choose the hamburger menu (Windows) or View (macOS), then",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "PDF services for user profiles .",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Acrobat desktop and mobile : To use AI Assistant for Acrobat, you need not",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Acrobat online : Turn on PDF services for the product profile assigned to users.",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 17
+        },
+        {
+            "level": "H1",
+            "text": "License deployment",
+            "page": 18
+        }
+    ]
+}

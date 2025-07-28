@@ -1,0 +1,715 @@
+{
+    "title": "Export",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "Adobe Acrobat Reader users can save a copy of a PDF or PDF Portfolio if the creator of the",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Save a PDF",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Recover the last saved version",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "About the Autosave feature",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Set up automatic saving",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Recover lost changes after an unexpected shutdown",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Convert PDF to DOCX",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Convert PDF to DOC",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Convert PDF to PPTX",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "File format op Ɵons for PDF export in Acrobat",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Adobe PDF options",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Image conversion settings",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "File settings",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Grayscale/Color: Specifies a compression setting that balances file size with image",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Tile Size: Divides the image being compressed into tiles of the given size. (If the image",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Format: Determines how the file is displayed. Available only in JPEG format. It",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Baseline (Standard): Displays the image when it has fully downloaded. This",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Baseline (Optimized): Optimizes color quality of the image and produces",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Progressive (3 scans-5 scans): Downloads the image first as a low-resolution",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Color management",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "RGB/CMYK/Grayscale",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Conversion",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Colorspace/Resolution",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "File settings",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Interlace",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Filter: Lets you select a filtering algorithm.",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "None : Compresses the image without a filter. Recommended for indexed-color",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Sub: Optimizes the compression of images with even horizontal patterns or blends.",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Up: Optimizes the compression of images with even vertical patterns.",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Average: Optimizes the compression of low-level noise by averaging the color values",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Paeth : Optimizes the compression of low-level noise by reassigning adjacent color",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Adaptive: Applies the filtering algorithm—Sub, Up, Average, or Paeth—best suited for",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Color management",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "RGB/Grayscale",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Conversion",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Colorspace/Resolution",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "File settings",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Monochrome",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Color management",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "RGB/CMYK/Grayscale/Other",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Conversion",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Colorspace/Resolution",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "PDF to Microso Ō Word conversion seƫngs",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Layout Settings",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Retain Flowing Text: Speciﬁes that text ﬂow must be retained.",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Retain Page Layout: Speciﬁes that page layout must be retained.",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Comments Settings",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Include Comments: Exports comments to the output ﬁle.",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Image Settings",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Include Images: Exports images to the output ﬁle.",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Text Recognition Settings",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Recognize Text If Needed: Recognizes text if the PDF contains images that contain text.",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Set Language: Speciﬁes the language se ƫng for OCR.",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "Convert PDF to RTF",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "PDF to RTF conversion se ƫngs",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Layout Settings",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Retain Flowing Text: Speciﬁes that text ﬂow must be retained.",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Retain Page Layout: Speciﬁes that page layout must be retained.",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Comments Settings",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Include Comments: Exports comments to the output ﬁle.",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Image Settings",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "Include Images: Exports images to the output ﬁle.",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Text Recognition Settings",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Recognize Text If Needed: Recognizes text if the PDF contains images that contain text.",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Set Language: Speciﬁes the language se ƫng for OCR.",
+            "page": 14
+        },
+        {
+            "level": "H1",
+            "text": "Convert PDF to HTML Web Page",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "PDF to HTML conversion se ƫngs",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Single html page",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Multiple html pages",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Content se ƫngs",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Include Images",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Detect and Remove Headers and Footers",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Text recogni Ɵon seƫngs",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Recognize Text If Needed",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Set Language",
+            "page": 16
+        },
+        {
+            "level": "H1",
+            "text": "Convert PDF to Microso Ō Excel",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Convert PDF to Microsoft Excel (XLSX)",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Convert PDF to XML",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Excel Workbook Settings",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Numeric Settings",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Detect decimal and thousands separators using regional settings",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Treat the following as decimal and thousands separators . Then enter or selecct",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Text recogni Ɵon se ƫngs",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Recognize Text If Needed",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Set Language",
+            "page": 19
+        },
+        {
+            "level": "H1",
+            "text": "Convert PDF to PostScript or Encapsulated",
+            "page": 20
+        },
+        {
+            "level": "H1",
+            "text": "PostScript (EPS)",
+            "page": 20
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 20
+        },
+        {
+            "level": "H2",
+            "text": "Printer Description File",
+            "page": 21
+        },
+        {
+            "level": "H2",
+            "text": "ASCII or Binary",
+            "page": 21
+        },
+        {
+            "level": "H2",
+            "text": "PostScript",
+            "page": 21
+        },
+        {
+            "level": "H2",
+            "text": "Font Inclusion",
+            "page": 21
+        },
+        {
+            "level": "H2",
+            "text": "Include Comments",
+            "page": 21
+        },
+        {
+            "level": "H2",
+            "text": "Convert True Type to Type 1",
+            "page": 21
+        },
+        {
+            "level": "H2",
+            "text": "Include Preview",
+            "page": 21
+        },
+        {
+            "level": "H2",
+            "text": "Page Range",
+            "page": 21
+        },
+        {
+            "level": "H1",
+            "text": "Convert PDF to Text and XML 1.0",
+            "page": 22
+        },
+        {
+            "level": "H2",
+            "text": "Convert PDF to XML 1.0",
+            "page": 22
+        },
+        {
+            "level": "H2",
+            "text": "Convert PDF to text",
+            "page": 22
+        },
+        {
+            "level": "H2",
+            "text": "Output file settings",
+            "page": 22
+        },
+        {
+            "level": "H2",
+            "text": "Encoding",
+            "page": 22
+        },
+        {
+            "level": "H2",
+            "text": "Use mapping table default uses the default character encoding defined in mapping tables,",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Generate Bookmarks",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Generate Tags For Untagged Files",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Image file settings",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Generate Images",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Use Sub-Folder",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Use Prefix",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Output Format",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Downsample To",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Convert PDF to JPEG or JPEG 2000",
+            "page": 24
+        },
+        {
+            "level": "H2",
+            "text": "Convert PDF to TIFF",
+            "page": 24
+        },
+        {
+            "level": "H2",
+            "text": "Convert PDF to PNG",
+            "page": 25
+        },
+        {
+            "level": "H2",
+            "text": "Overview",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "Export images from PDFs",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "Management , Conversion , and Extraction settings for the file type.",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "different folder to select alternate locations.",
+            "page": 26
+        },
+        {
+            "level": "H1",
+            "text": "Select and copy text and images",
+            "page": 28
+        },
+        {
+            "level": "H2",
+            "text": "tools > Scan & OCR, then select In this file under RECOGNIZE TEXT to export image",
+            "page": 28
+        },
+        {
+            "level": "H2",
+            "text": "Select text and images",
+            "page": 28
+        },
+        {
+            "level": "H2",
+            "text": "Select a column of text",
+            "page": 28
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 28
+        },
+        {
+            "level": "H2",
+            "text": "Select all the text on a page",
+            "page": 29
+        },
+        {
+            "level": "H2",
+            "text": "Note: If you choose any other page layout, all the text in the document is selected.",
+            "page": 29
+        },
+        {
+            "level": "H2",
+            "text": "Copy selected text",
+            "page": 29
+        },
+        {
+            "level": "H2",
+            "text": "Paste copied text and images",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "Convert selected content to other formats",
+            "page": 30
+        },
+        {
+            "level": "H2",
+            "text": "Note: To select tables that exceed one page, try changing the page display to Single",
+            "page": 30
+        },
+        {
+            "level": "H2",
+            "text": "Page before selecting the tables. Then select View > Page Display > Enable Scrolling .",
+            "page": 30
+        },
+        {
+            "level": "H2",
+            "text": "Note: To copy a table in RTF, drag the selected table into an open document in the",
+            "page": 30
+        }
+    ]
+}

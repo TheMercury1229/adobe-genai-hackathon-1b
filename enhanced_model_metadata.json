@@ -1,0 +1,39 @@
+{
+  "feature_columns": [
+    "page_num",
+    "relative_x",
+    "relative_y",
+    "char_count",
+    "word_count",
+    "font_size_ratio",
+    "is_bold",
+    "is_italic",
+    "is_all_caps",
+    "is_title_case",
+    "is_superscript",
+    "has_numbers",
+    "starts_with_number",
+    "is_above_avg_font",
+    "formatting_score",
+    "font_emphasis",
+    "is_top_third",
+    "is_left_aligned",
+    "is_short_text",
+    "is_medium_text",
+    "is_long_text"
+  ],
+  "class_names": [
+    "body",
+    "font_ratio",
+    "h1",
+    "h2",
+    "preservation_reason",
+    "title"
+  ],
+  "model_info": {
+    "type": "Enhanced RandomForestClassifier",
+    "n_features": 21,
+    "n_classes": 6,
+    "enhancement": "Composite features and improved weighting"
+  }
+}

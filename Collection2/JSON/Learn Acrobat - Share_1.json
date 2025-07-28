@@ -1,0 +1,180 @@
+{
+    "title": "Share",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "Send an anonymous or public link in an email",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Get link : You get this option when a file isn't synced to the cloud. Select Get",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "link to sync the file to the cloud. Once the file is synced, the get link option",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Add People: Select Share , then enter the email addresses of the people you",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "Unshare File: Select Share. The profile icons of the people you have shared the",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Mark up text",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Note: The Insert text and Replace selected text commenting tools are now available for",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Highlight, strikethrough, or underline text",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "comment",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Using Select Text Tool",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Using Markup Tool",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Change the color of the markup",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Delete The Markup",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Add a comment to the markup",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Replace text",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Insert text",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Note: You can also indicate text edits by using the Select tool to select text, right-click the",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Export text edits",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Share a PDF for review",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "Send an anonymous or public link in an email",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Get link : You get this option when a file isn't synced to the cloud. Select Get",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "link to sync the file to the cloud. Once the file is synced, the get link option",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Copy link : You get this option if the file is already synced to the cloud or shared",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Add People: Select Share , then enter the email addresses of the people you",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Unshare File: Select Share. The profile icons of the people you have shared the",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Reviewer experience",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Send personalized invitations for commenting",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "Note:",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "Initiate a review using @mention in a PDF",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "Reviewer experience",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "Hosting a shared review on SharePoint or Office 365",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "Initiate SharePoint-based shared review",
+            "page": 14
+        },
+        {
+            "level": "H1",
+            "text": "using Acrobat",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Note: If you don't want Acrobat to automatically configure the review, you can",
+            "page": 14
+        }
+    ]
+}
