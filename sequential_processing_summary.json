@@ -1,0 +1,25 @@
+{
+    "start_time": "2025-07-28T23:34:11.248869",
+    "step1_success": true,
+    "step2_success": true,
+    "step1_result": {
+        "start_time": "2025-07-28T23:34:19.913450",
+        "success": true,
+        "collections_processed": 3,
+        "collections_failed": 0,
+        "total_pdfs_processed": 31,
+        "total_pdfs_failed": 0,
+        "collection_results": {
+            "Collection1": {
+                "success": true,
+                "pdfs_processed": 7,
+                "pdfs_failed": 0,
+                "total_pdfs": 7,
+                "results": [
+                    {
+                        "pdf_name": "South of France - Cities",
+                        "json_path": "C:\\Users\\Admin\\Desktop\\1b\\Collection1\\JSON\\South of France - Cities.json",
+                        "total_elements": 37,
+                        "total_headings": 10,
+                        "predictions": {
+                            "title": 
