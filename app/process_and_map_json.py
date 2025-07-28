@@ -56,7 +56,7 @@ def process_json_with_outlines(collection_folder, input_filename="challenge1b_in
     
     Args:
         collection_folder (str): Path to the collection folder (e.g., "../Collection1")
-        input_filename (str): Name of the input JSON file (default: "b.json")
+        input_filename (str): Name of the input JSON file (default: "challenge1b_input.json")
     """
     input_path = os.path.join(collection_folder, input_filename)
     

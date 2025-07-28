@@ -354,7 +354,7 @@ class IntegratedSemanticSearch:
         self,
         top_k: int = 5,
         save_results: bool = True,
-        output_filename: str = "output.json"  # Changed default filename
+        output_filename: str = "challenge1b_output.json"  # Changed default filename
     ) -> Dict[str, Any]:
         """
         Complete pipeline: process PDFs, extract text, and perform semantic search
@@ -524,7 +524,7 @@ class IntegratedSemanticSearch:
         except Exception as e:
             self.logger.error(f"Error saving text summary: {e}")
 
-    def print_formatted_summary(self, results: Dict[str, Any], output_filename: str = "output.json"):
+    def print_formatted_summary(self, results: Dict[str, Any], output_filename: str = "challenge1b_output.json"):
         """Print comprehensive summary of formatted results"""
         print("\n" + "="*80)
         print("SEMANTIC SEARCH PIPELINE COMPLETED")
@@ -557,7 +557,7 @@ class IntegratedSemanticSearch:
 def process_collection_with_semantic_search(
     collection_folder: str,
     top_k: int = 5,
-    output_filename: str = "output.json"  # Added output_filename parameter
+    output_filename: str = "challenge1b_output.json"  # Added output_filename parameter
 ) -> Dict[str, Any]:
     """
     Process a single collection folder with semantic search
@@ -615,8 +615,8 @@ def main():
     default_collection = "../Collection1"
 
     # You can choose which output filename to use:
-    # Option 1: Simple output.json
-    output_filename = "output.json"
+    # Option 1: Simple chanllenge1b_output.json
+    output_filename = "chanllenge1b_output.json"
 
     # Option 2: Challenge-specific output.json (uncomment to use)
     # output_filename = "challenge1b_output.json"

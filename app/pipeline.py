@@ -108,7 +108,7 @@ class CollectionPipeline:
         
         # Check for required files and folders
         required_items = {
-            "b.json": "file",
+            "challenge1b_input.json": "file",
             "PDFs": "folder",
             "JSON": "folder"
         }
@@ -193,7 +193,7 @@ class CollectionPipeline:
                 persona, job, pdf_filenames, pdf_to_outline_mapping = process_json_with_outlines(collection_folder)
                 
                 if not pdf_filenames:
-                    raise Exception("No PDF filenames found in b.json")
+                    raise Exception("No PDF filenames found in challenge1b_input.json")
                 
                 if not pdf_to_outline_mapping:
                     self.logger.warning("No outline mappings found, but continuing with PDF filenames")

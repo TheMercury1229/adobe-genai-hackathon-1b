@@ -2,11 +2,11 @@ SEMANTIC SEARCH RESULTS SUMMARY
 ================================================================================
 
 Processing Information:
-  • Collection folder: ..\Collection2
+  • Collection folder: ..\Collection1
   • Persona: Travel Planner
   • Job: Plan a trip of 4 days for a group of 10 college friends.
   • Documents processed: 6
-  • Processing time: 2025-07-28T22:54:47.329168
+  • Processing time: 2025-07-28T23:10:26.071583
 
 Input Documents:
   • South of France - Cities.pdf

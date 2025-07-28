@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_folder": "..\\Collection2",
+        "collection_folder": "..\\Collection1",
         "input_documents": [
             "South of France - Cities.pdf",
             "South of France - Cuisine.pdf",
@@ -11,7 +11,7 @@
         ],
         "persona": "Travel Planner",
         "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
-        "processing_timestamp": "2025-07-28T22:54:47.329168"
+        "processing_timestamp": "2025-07-28T23:10:26.071583"
     },
     "extracted_sections": [
         {

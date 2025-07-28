@@ -6,7 +6,7 @@ Processing Information:
   • Persona: Travel Planner
   • Job: Plan a trip of 4 days for a group of 10 college friends.
   • Documents processed: 6
-  • Processing time: 2025-07-28T22:54:45.989897
+  • Processing time: 2025-07-28T23:08:45.594136
 
 Input Documents:
   • South of France - Cities.pdf
