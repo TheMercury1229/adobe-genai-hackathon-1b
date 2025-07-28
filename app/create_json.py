@@ -9,6 +9,7 @@ Directory structure:
 - enhanced_*.joblib        (model files in root)
 """
 
+from datetime import datetime
 import os
 import sys
 import json
@@ -28,7 +29,6 @@ try:
     from create_csv import (
         extract_pdf_features,
         filter_significant_elements,
-        save_to_csv
     )
     CSV_MODULE_AVAILABLE = True
 except ImportError as e:
@@ -384,7 +384,10 @@ def process_collection(collection_dir):
 
 
 def main():
-    """Main entry point"""
+    """
+    Main entry point for the PDF to JSON conversion process
+    Returns structured results for use by sequential processing
+    """
 
     print("="*70)
     print("COLLECTION PDF PROCESSING PIPELINE")
@@ -392,109 +395,210 @@ def main():
     print(f"Root directory: {root_dir}")
     print(f"App directory: {script_dir}")
 
-    # Check if CSV creation module is available
-    if not CSV_MODULE_AVAILABLE:
-        print("\n❌ Cannot proceed without create_csv.py module")
-        print("Please ensure create_csv.py is in the app directory")
-        return
+    # Initialize results structure
+    results = {
+        "start_time": datetime.now().isoformat(),
+        "success": False,
+        "collections_processed": 0,
+        "collections_failed": 0,
+        "total_pdfs_processed": 0,
+        "total_pdfs_failed": 0,
+        "collection_results": {},
+        "errors": []
+    }
 
-    # Load trained model
-    print("\n🤖 Loading trained model...")
-    model, label_encoder, metadata = load_trained_model()
-    if model is None:
-        print("❌ Cannot proceed without trained model")
-        return
+    try:
+        # Check if CSV creation module is available
+        if not CSV_MODULE_AVAILABLE:
+            error_msg = "Cannot proceed without create_csv.py module"
+            print(f"\n❌ {error_msg}")
+            print("Please ensure create_csv.py is in the app directory")
+            results["errors"].append(error_msg)
+            return results
 
-    expected_features = metadata['feature_columns']
-    print(f"✅ Model expects {len(expected_features)} features")
+        # Load trained model
+        print("\n🤖 Loading trained model...")
+        model, label_encoder, metadata = load_trained_model()
+        if model is None:
+            error_msg = "Cannot proceed without trained model"
+            print(f"❌ {error_msg}")
+            results["errors"].append(error_msg)
+            return results
 
-    # Find collection directories
-    collections = find_collection_directories()
-    if not collections:
-        print(f"❌ No Collection directories found in {root_dir}")
-        return
+        expected_features = metadata['feature_columns']
+        print(f"✅ Model expects {len(expected_features)} features")
 
-    print(f"\n📁 Found {len(collections)} collection(s):")
-    for collection in collections:
-        print(f"   - {collection.name}")
+        # Find collection directories
+        collections = find_collection_directories()
+        if not collections:
+            error_msg = f"No Collection directories found in {root_dir}"
+            print(f"❌ {error_msg}")
+            results["errors"].append(error_msg)
+            return results
 
-    # Process each collection
-    all_results = {}
+        print(f"\n📁 Found {len(collections)} collection(s):")
+        for collection in collections:
+            print(f"   - {collection.name}")
 
-    for collection_dir in collections:
-        result = process_collection(collection_dir)
-        if result is None:
-            continue
+        # Process each collection
+        for collection_dir in collections:
+            collection_name = collection_dir.name
 
-        pdf_files, pdfs_dir, json_dir = result
-        collection_results = []
-        successful = 0
+            try:
+                result = process_collection(collection_dir)
+                if result is None:
+                    results["collections_failed"] += 1
+                    results["collection_results"][collection_name] = {
+                        "success": False,
+                        "error": "Collection processing returned None"
+                    }
+                    continue
 
-        # Process each PDF in the collection
-        for i, pdf_file in enumerate(pdf_files, 1):
-            pdf_path = pdfs_dir / pdf_file
+                pdf_files, pdfs_dir, json_dir = result
+                collection_results = []
+                successful = 0
+                failed = 0
 
-            if not pdf_path.exists():
-                print(f"\n[{i}/{len(pdf_files)}] ❌ PDF not found: {pdf_file}")
-                continue
+                # Process each PDF in the collection
+                for i, pdf_file in enumerate(pdf_files, 1):
+                    pdf_path = pdfs_dir / pdf_file
 
-            print(f"\n[{i}/{len(pdf_files)}] " + "="*50)
-            print(f"Processing: {pdf_file}")
+                    if not pdf_path.exists():
+                        print(
+                            f"\n[{i}/{len(pdf_files)}] ❌ PDF not found: {pdf_file}")
+                        failed += 1
+                        continue
 
-            result = process_single_pdf(
-                str(pdf_path),
-                str(json_dir),
-                model,
-                label_encoder,
-                expected_features
-            )
+                    print(f"\n[{i}/{len(pdf_files)}] " + "="*50)
+                    print(f"Processing: {pdf_file}")
 
-            if result:
-                collection_results.append(result)
-                successful += 1
-                print(f"✅ Successfully processed: {pdf_file}")
+                    pdf_result = process_single_pdf(
+                        str(pdf_path),
+                        str(json_dir),
+                        model,
+                        label_encoder,
+                        expected_features
+                    )
+
+                    if pdf_result:
+                        collection_results.append(pdf_result)
+                        successful += 1
+                        print(f"✅ Successfully processed: {pdf_file}")
+                    else:
+                        failed += 1
+                        print(f"❌ Failed to process: {pdf_file}")
+
+                # Update results for this collection
+                results["total_pdfs_processed"] += successful
+                results["total_pdfs_failed"] += failed
+
+                if successful > 0:
+                    results["collections_processed"] += 1
+                    results["collection_results"][collection_name] = {
+                        "success": True,
+                        "pdfs_processed": successful,
+                        "pdfs_failed": failed,
+                        "total_pdfs": len(pdf_files),
+                        "results": collection_results
+                    }
+                else:
+                    results["collections_failed"] += 1
+                    results["collection_results"][collection_name] = {
+                        "success": False,
+                        "pdfs_processed": 0,
+                        "pdfs_failed": failed,
+                        "total_pdfs": len(pdf_files),
+                        "error": "No PDFs processed successfully"
+                    }
+
+                # Collection summary
+                print(f"\n{'='*50}")
+                print(f"{collection_name} SUMMARY")
+                print(f"{'='*50}")
+                print(
+                    f"✅ Successfully processed: {successful}/{len(pdf_files)} PDFs")
+
+                if collection_results:
+                    total_elements = sum(r['total_elements']
+                                         for r in collection_results)
+                    total_headings = sum(r['total_headings']
+                                         for r in collection_results)
+                    avg_confidence = sum(
+                        r['mean_confidence'] for r in collection_results) / len(collection_results)
+
+                    print(f"📊 Total elements processed: {total_elements}")
+                    print(f"📋 Total headings detected: {total_headings}")
+                    print(f"🎯 Average confidence: {avg_confidence:.3f}")
+
+            except Exception as e:
+                error_msg = f"Error processing collection {collection_name}: {str(e)}"
+                print(f"❌ {error_msg}")
+                results["errors"].append(error_msg)
+                results["collections_failed"] += 1
+                results["collection_results"][collection_name] = {
+                    "success": False,
+                    "error": error_msg
+                }
+
+        # Final summary and success determination
+        results["end_time"] = datetime.now().isoformat()
+
+        # Consider it successful if at least one collection was processed
+        if results["collections_processed"] > 0:
+            results["success"] = True
+
+        # Print final summary
+        print(f"\n{'='*70}")
+        print("FINAL SUMMARY")
+        print(f"{'='*70}")
+
+        print(
+            f"📁 Collections processed: {results['collections_processed']}/{len(collections)}")
+        print(
+            f"✅ Total PDFs processed successfully: {results['total_pdfs_processed']}")
+        print(f"❌ Total PDFs failed: {results['total_pdfs_failed']}")
+
+        for collection_name, stats in results["collection_results"].items():
+            if stats["success"]:
+                print(
+                    f"   {collection_name}: {stats['pdfs_processed']}/{stats['total_pdfs']} PDFs")
             else:
-                print(f"❌ Failed to process: {pdf_file}")
+                print(
+                    f"   {collection_name}: FAILED - {stats.get('error', 'Unknown error')}")
 
-        all_results[collection_dir.name] = {
-            'results': collection_results,
-            'successful': successful,
-            'total': len(pdf_files)
-        }
+        if results["success"]:
+            print(f"\n🎉 PDF to JSON conversion completed successfully!")
+        else:
+            print(f"\n⚠️  PDF to JSON conversion completed with issues")
 
-        # Collection summary
-        print(f"\n{'='*50}")
-        print(f"{collection_dir.name} SUMMARY")
-        print(f"{'='*50}")
-        print(f"✅ Successfully processed: {successful}/{len(pdf_files)} PDFs")
+    except Exception as e:
+        error_msg = f"Fatal error in main processing: {str(e)}"
+        print(f"❌ {error_msg}")
+        results["errors"].append(error_msg)
+        results["end_time"] = datetime.now().isoformat()
 
-        if collection_results:
-            total_elements = sum(r['total_elements']
-                                 for r in collection_results)
-            total_headings = sum(r['total_headings']
-                                 for r in collection_results)
-            avg_confidence = sum(r['mean_confidence']
-                                 for r in collection_results) / len(collection_results)
+        # Print traceback for debugging
+        import traceback
+        traceback.print_exc()
 
-            print(f"📊 Total elements processed: {total_elements}")
-            print(f"📋 Total headings detected: {total_headings}")
-            print(f"🎯 Average confidence: {avg_confidence:.3f}")
-
-    # Final summary
-    print(f"\n{'='*70}")
-    print("FINAL SUMMARY")
-    print(f"{'='*70}")
-
-    total_successful = sum(r['successful'] for r in all_results.values())
-    total_pdfs = sum(r['total'] for r in all_results.values())
-
-    print(f"📁 Collections processed: {len(all_results)}")
-    print(
-        f"✅ Total PDFs processed successfully: {total_successful}/{total_pdfs}")
-
-    for collection_name, stats in all_results.items():
-        print(f"   {collection_name}: {stats['successful']}/{stats['total']}")
+    return results
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        # Run the main function and get results
+        results = main()
+
+        # Exit with appropriate code
+        if results["success"]:
+            print(f"\n✅ Process completed successfully!")
+            sys.exit(0)
+        else:
+            print(f"\n❌ Process completed with errors")
+            if results["errors"]:
+                print(f"Errors: {'; '.join(results['errors'])}")
+            sys.exit(1)
+
+    except Exception as e:
+        print(f"\n💥 Fatal error: {e}")
+        sys.exit(2)
