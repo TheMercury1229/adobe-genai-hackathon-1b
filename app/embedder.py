@@ -3,7 +3,6 @@ Semantic search functionality for PDF sections using sentence transformers.
 Extends the existing PDF text extraction with semantic similarity matching.
 """
 
-import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from typing import List, Dict, Any, Tuple
